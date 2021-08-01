@@ -1,10 +1,13 @@
-const express = require(express);
+const express = require("express");
 const port = 3000;
+const books = require("./routers/router");
 
 const app = express();
 
-app.use(express.static("./routers/routers.js"));
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+app.use("/api/v1/books", books);
 
-app.liste(port, () => {
+app.listen(port, () => {
 	console.log(`server is listening on port ${port}...`);
 });

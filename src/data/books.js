@@ -1,12 +1,9 @@
-const books = [
+module.exports = [
 	{
-		id: 1,
-		title: "Unlocking Android",
+		title: "Unlocking Android: A Developer's Guide",
 		isbn: "1933988673",
 		pageCount: 416,
-		publishedDate: {
-			$date: "2009-04-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-04-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson.jpg",
 		shortDescription:
@@ -18,45 +15,10 @@ const books = [
 		categories: ["Open Source", "Mobile"],
 	},
 	{
-		id: 2,
-		title: "Android in Action, Second Edition",
-		isbn: "1935182722",
-		pageCount: 592,
-		publishedDate: {
-			$date: "2011-01-14T00:00:00.000-0800",
-		},
-		thumbnailUrl:
-			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson2.jpg",
-		shortDescription:
-			"Android in Action, Second Edition is a comprehensive tutorial for Android developers. Taking you far beyond \"Hello Android,\" this fast-paced book puts you in the driver's seat as you learn important architectural concepts and implementation strategies. You'll master the SDK, build WebKit apps using HTML 5, and even learn to extend or replace Android's built-in features by building useful and intriguing examples. ",
-		longDescription:
-			"When it comes to mobile apps, Android can do almost anything   and with this book, so can you! Android runs on mobile devices ranging from smart phones to tablets to countless special-purpose gadgets. It's the broadest mobile platform available.    Android in Action, Second Edition is a comprehensive tutorial for Android developers. Taking you far beyond \"Hello Android,\" this fast-paced book puts you in the driver's seat as you learn important architectural concepts and implementation strategies. You'll master the SDK, build WebKit apps using HTML 5, and even learn to extend or replace Android's built-in features by building useful and intriguing examples. ",
-		status: "PUBLISH",
-		authors: ["W. Frank Ableson", "Robi Sen"],
-		categories: ["Java"],
-	},
-	{
-		id: 3,
-		title: "Specification by Example",
-		isbn: "1617290084",
-		pageCount: 0,
-		publishedDate: {
-			$date: "2011-06-03T00:00:00.000-0700",
-		},
-		thumbnailUrl:
-			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/adzic.jpg",
-		status: "PUBLISH",
-		authors: ["Gojko Adzic"],
-		categories: ["Software Engineering"],
-	},
-	{
-		id: 4,
 		title: "Flex 3 in Action",
 		isbn: "1933988746",
 		pageCount: 576,
-		publishedDate: {
-			$date: "2009-02-02T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2009-02-02T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ahmed.jpg",
 		longDescription:
@@ -66,13 +28,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 5,
 		title: "Flex 4 in Action",
 		isbn: "1935182420",
 		pageCount: 600,
-		publishedDate: {
-			$date: "2010-11-15T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2010-11-15T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ahmed2.jpg",
 		longDescription:
@@ -87,13 +46,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 6,
 		title: "Collective Intelligence in Action",
 		isbn: "1933988312",
 		pageCount: 425,
-		publishedDate: {
-			$date: "2008-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2008-10-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/alag.jpg",
 		longDescription:
@@ -103,13 +59,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 7,
 		title: "Zend Framework in Action",
 		isbn: "1933988320",
 		pageCount: 432,
-		publishedDate: {
-			$date: "2008-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2008-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/allen.jpg",
 		shortDescription:
@@ -121,13 +74,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 8,
 		title: "Flex on Java",
 		isbn: "1933988797",
 		pageCount: 265,
-		publishedDate: {
-			$date: "2010-10-15T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2010-10-15T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/allmon.jpg",
 		shortDescription:
@@ -139,13 +89,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 9,
 		title: "Griffon in Action",
 		isbn: "1935182234",
 		pageCount: 375,
-		publishedDate: {
-			$date: "2012-06-04T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-06-04T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/almiray.jpg",
 		shortDescription:
@@ -157,13 +104,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 10,
 		title: "OSGi in Depth",
 		isbn: "193518217X",
 		pageCount: 325,
-		publishedDate: {
-			$date: "2011-12-12T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2011-12-12T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/alves.jpg",
 		shortDescription:
@@ -175,13 +119,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 11,
 		title: "Flexible Rails",
 		isbn: "1933988509",
 		pageCount: 592,
-		publishedDate: {
-			$date: "2008-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2008-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/armstrong.jpg",
 		shortDescription:
@@ -193,13 +134,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 12,
 		title: "Hello! Flex 4",
 		isbn: "1933988762",
 		pageCount: 258,
-		publishedDate: {
-			$date: "2009-11-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-11-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/armstrong3.jpg",
 		shortDescription:
@@ -211,13 +149,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 13,
 		title: "Coffeehouse",
 		isbn: "1884777384",
 		pageCount: 316,
-		publishedDate: {
-			$date: "1997-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1997-07-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/asher.jpg",
 		shortDescription:
@@ -229,13 +164,10 @@ const books = [
 		categories: ["Miscellaneous"],
 	},
 	{
-		id: 14,
 		title: "Team Foundation Server 2008 in Action",
 		isbn: "1933988592",
 		pageCount: 344,
-		publishedDate: {
-			$date: "2008-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2008-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/azher.jpg",
 		longDescription:
@@ -245,13 +177,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 15,
 		title: "Brownfield Application Development in .NET",
 		isbn: "1933988711",
 		pageCount: 550,
-		publishedDate: {
-			$date: "2010-04-16T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2010-04-16T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/baley.jpg",
 		shortDescription:
@@ -263,13 +192,10 @@ const books = [
 		categories: ["Microsoft"],
 	},
 	{
-		id: 16,
 		title: "MongoDB in Action",
 		isbn: "1935182870",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2011-12-12T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2011-12-12T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
 		shortDescription:
@@ -281,13 +207,10 @@ const books = [
 		categories: ["Next Generation Databases"],
 	},
 	{
-		id: 17,
 		title: "Distributed Application Development with PowerBuilder 6.0",
 		isbn: "1884777686",
 		pageCount: 504,
-		publishedDate: {
-			$date: "1998-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1998-06-01T00:00:00.000-0700" },
 		longDescription:
 			"Distributed Application Development with PowerBuilder 6.0 is a vital source for the PowerBuilder programmer; it provides the sort of detailed coverage of Distributed PowerBuilder that you can find nowwhere else.    The book opens with a discussion of distributed computing in general, as well as its design principles and technologies. Then Distributed PowerBuilder is examined in detail. By building a simple application step by step, the author discusses all of the concepts and components needed for building a PowerBuilder application and shows how to make the application available over a network.    Finally, the author explores how PowerBuilder can be used in distributed solutions both with and without using DPB.    Distributed Application Development with PowerBuilder 6.0 is for any PowerBuilder developer looking for information on distributed computing options with the PowerBuilder environment. IS managers, system architects, and developers using many different technologies can learn how PowerBuilder can be used as all or part of the solution for building distributed applications.    The main topic of this book is Distributed PowerBuilder (DPB). It covers the basics of building a DPB application and walks through each new feature with examples including the Shared object, DataWindow synchronization, Server Push and Web.PB. It also explains distributed computing technologies and design principles so that your application can be built to handle the stresses of a distributed environment.  ",
 		status: "PUBLISH",
@@ -295,13 +218,10 @@ const books = [
 		categories: ["PowerBuilder"],
 	},
 	{
-		id: 18,
 		title: "Jaguar Development with PowerBuilder 7",
 		isbn: "1884777864",
 		pageCount: 550,
-		publishedDate: {
-			$date: "1999-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1999-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/barlotta2.jpg",
 		shortDescription:
@@ -313,13 +233,10 @@ const books = [
 		categories: ["PowerBuilder", "Client-Server"],
 	},
 	{
-		id: 19,
 		title: "Taming Jaguar",
 		isbn: "1884777686",
 		pageCount: 362,
-		publishedDate: {
-			$date: "2000-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2000-07-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/barlotta3.jpg",
 		longDescription:
@@ -329,13 +246,10 @@ const books = [
 		categories: ["PowerBuilder"],
 	},
 	{
-		id: 20,
 		title: "3D User Interfaces with Java 3D",
 		isbn: "1884777902",
 		pageCount: 520,
-		publishedDate: {
-			$date: "2000-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2000-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/barrilleaux.jpg",
 		longDescription:
@@ -345,13 +259,10 @@ const books = [
 		categories: ["Java", "Computer Graphics"],
 	},
 	{
-		id: 21,
 		title: "Hibernate in Action",
 		isbn: "193239415X",
 		pageCount: 400,
-		publishedDate: {
-			$date: "2004-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2004-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bauer.jpg",
 		shortDescription: '"2005 Best Java Book!" -- Java Developer\'s Journal',
@@ -362,12 +273,9 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 22,
 		title: "Hibernate in Action (Chinese Edition)",
 		pageCount: 400,
-		publishedDate: {
-			$date: "1999-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1999-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bauer-cn.jpg",
 		status: "PUBLISH",
@@ -375,13 +283,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 23,
 		title: "Java Persistence with Hibernate",
 		isbn: "1932394885",
 		pageCount: 880,
-		publishedDate: {
-			$date: "2006-11-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2006-11-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bauer2.jpg",
 		shortDescription:
@@ -393,13 +298,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 24,
 		title: "JSTL in Action",
 		isbn: "1930110529",
 		pageCount: 480,
-		publishedDate: {
-			$date: "2002-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2002-07-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bayern.jpg",
 		longDescription:
@@ -409,13 +311,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 25,
 		title: "iBATIS in Action",
 		isbn: "1932394826",
 		pageCount: 384,
-		publishedDate: {
-			$date: "2007-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2007-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/begin.jpg",
 		shortDescription:
@@ -427,13 +326,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 26,
 		title: "Designing Hard Software",
 		isbn: "133046192",
 		pageCount: 350,
-		publishedDate: {
-			$date: "1997-02-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1997-02-01T00:00:00.000-0800" },
 		shortDescription:
 			'"This book is well written ... The author does not fear to be controversial. In doing so, he writes a coherent book." --Dr. Frank J. van der Linden, Phillips Research Laboratories',
 		longDescription:
@@ -443,13 +339,10 @@ const books = [
 		categories: ["Object-Oriented Programming", "S"],
 	},
 	{
-		id: 27,
 		title: "Hibernate Search in Action",
 		isbn: "1933988649",
 		pageCount: 488,
-		publishedDate: {
-			$date: "2008-12-21T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2008-12-21T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bernard.jpg",
 		shortDescription:
@@ -461,13 +354,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 28,
 		title: "jQuery in Action",
 		isbn: "1933988355",
 		pageCount: 376,
-		publishedDate: {
-			$date: "2008-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2008-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bibeault.jpg",
 		shortDescription:
@@ -479,13 +369,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 29,
 		title: "jQuery in Action, Second Edition",
 		isbn: "1935182323",
 		pageCount: 488,
-		publishedDate: {
-			$date: "2010-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2010-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bibeault2.jpg",
 		shortDescription:
@@ -497,13 +384,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 30,
 		title: "Building Secure and Reliable Network Applications",
 		isbn: "1884777295",
 		pageCount: 591,
-		publishedDate: {
-			$date: "1996-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1996-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/birman.jpg",
 		shortDescription:
@@ -515,13 +399,10 @@ const books = [
 		categories: ["Networking", "Theory"],
 	},
 	{
-		id: 31,
 		title: "Ruby for Rails",
 		isbn: "1932394699",
 		pageCount: 532,
-		publishedDate: {
-			$date: "2006-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2006-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/black.jpg",
 		shortDescription:
@@ -533,13 +414,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 32,
 		title: "The Well-Grounded Rubyist",
 		isbn: "1933988657",
 		pageCount: 520,
-		publishedDate: {
-			$date: "2009-04-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-04-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/black2.jpg",
 		shortDescription:
@@ -551,13 +429,10 @@ const books = [
 		categories: ["Programming"],
 	},
 	{
-		id: 33,
 		title: "Website Owner's Manual",
 		isbn: "1933988452",
 		pageCount: 296,
-		publishedDate: {
-			$date: "2009-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-10-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/boag.jpg",
 		shortDescription:
@@ -569,13 +444,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 34,
 		title: "ASP.NET 4.0 in Practice",
 		isbn: "1935182463",
 		pageCount: 504,
-		publishedDate: {
-			$date: "2011-05-15T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-05-15T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bochicchio.jpg",
 		shortDescription:
@@ -592,13 +464,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 35,
 		title: "Hello! Python",
 		isbn: "1935182080",
 		pageCount: 350,
-		publishedDate: {
-			$date: "2012-02-13T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2012-02-13T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/briggs.jpg",
 		shortDescription:
@@ -610,13 +479,10 @@ const books = [
 		categories: ["Python"],
 	},
 	{
-		id: 36,
 		title: "PFC Programmer's Reference Manual",
 		isbn: "1884777554",
 		pageCount: 368,
-		publishedDate: {
-			$date: "1998-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1998-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/brooks.jpg",
 		longDescription:
@@ -626,13 +492,10 @@ const books = [
 		categories: ["PowerBuilder"],
 	},
 	{
-		id: 37,
 		title: "Graphics File Formats",
 		isbn: "133034054",
 		pageCount: 484,
-		publishedDate: {
-			$date: "1995-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1995-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/brown.jpg",
 		longDescription:
@@ -642,13 +505,10 @@ const books = [
 		categories: ["Computer Graphics"],
 	},
 	{
-		id: 38,
 		title: "Visual Object Oriented Programming",
 		isbn: "131723979",
 		pageCount: 280,
-		publishedDate: {
-			$date: "1995-02-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1995-02-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/burnett.jpg",
 		longDescription:
@@ -658,13 +518,10 @@ const books = [
 		categories: ["Programming"],
 	},
 	{
-		id: 39,
 		title: "iOS in Practice",
 		isbn: "1617291269",
 		pageCount: 325,
-		publishedDate: {
-			$date: "2013-11-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-11-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cahill.jpg",
 		status: "PUBLISH",
@@ -672,13 +529,10 @@ const books = [
 		categories: ["Mobile Technology"],
 	},
 	{
-		id: 40,
 		title: "iPhone in Action",
 		isbn: "193398886X",
 		pageCount: 472,
-		publishedDate: {
-			$date: "2008-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2008-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/callen.jpg",
 		shortDescription:
@@ -690,13 +544,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 41,
 		title: "Silverlight 2 in Action",
 		isbn: "1933988428",
 		pageCount: 400,
-		publishedDate: {
-			$date: "2008-10-31T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2008-10-31T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/campbell.jpg",
 		shortDescription:
@@ -708,13 +559,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 42,
 		title: "The Quick Python Book, Second Edition",
 		isbn: "193518220X",
 		pageCount: 360,
-		publishedDate: {
-			$date: "2010-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2010-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ceder.jpg",
 		shortDescription:
@@ -726,13 +574,10 @@ const books = [
 		categories: ["Python"],
 	},
 	{
-		id: 43,
 		title: "Internet and Intranet Applications with PowerBuilder 6",
 		isbn: "1884777600",
 		pageCount: 390,
-		publishedDate: {
-			$date: "2000-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2000-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cervenka.jpg",
 		longDescription:
@@ -742,13 +587,10 @@ const books = [
 		categories: ["PowerBuilder"],
 	},
 	{
-		id: 44,
 		title: "Practical Methods for Your Year 2000 Problem",
 		isbn: "188477752X",
 		pageCount: 236,
-		publishedDate: {
-			$date: "1998-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1998-01-01T00:00:00.000-0800" },
 		shortDescription:
 			"Practical Methods for Your Year 2000 Problem gives the Year 2000 project team a step-by-step methodology for addressing the Year 2000 problem.",
 		longDescription:
@@ -758,13 +600,10 @@ const books = [
 		categories: ["Business"],
 	},
 	{
-		id: 45,
 		title: "Mobile Agents",
 		isbn: "1884777368",
 		pageCount: 320,
-		publishedDate: {
-			$date: "1997-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1997-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cockayne.jpg",
 		shortDescription:
@@ -776,13 +615,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 46,
 		title: "Spring Dynamic Modules in Action",
 		isbn: "1935182307",
 		pageCount: 450,
-		publishedDate: {
-			$date: "2010-09-04T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2010-09-04T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cogoluegnes.jpg",
 		shortDescription:
@@ -794,13 +630,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 47,
 		title: "SQL Server 2008 Administration in Action",
 		isbn: "193398872X",
 		pageCount: 468,
-		publishedDate: {
-			$date: "2009-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/colledge.jpg",
 		longDescription:
@@ -810,13 +643,10 @@ const books = [
 		categories: ["Microsoft"],
 	},
 	{
-		id: 48,
 		title: "Android in Practice",
 		isbn: "1935182927",
 		pageCount: 500,
-		publishedDate: {
-			$date: "2011-09-30T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-09-30T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/collins.jpg",
 		shortDescription:
@@ -833,13 +663,10 @@ const books = [
 		categories: ["Mobile Technology"],
 	},
 	{
-		id: 49,
 		title: "Object Oriented Perl",
 		isbn: "1884777791",
 		pageCount: 512,
-		publishedDate: {
-			$date: "1999-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1999-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/conway.jpg",
 		longDescription:
@@ -849,13 +676,10 @@ const books = [
 		categories: ["Object-Oriented Programming", "P"],
 	},
 	{
-		id: 50,
 		title: "GWT in Practice",
 		isbn: "1933988290",
 		pageCount: 376,
-		publishedDate: {
-			$date: "2008-04-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2008-04-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cooper.jpg",
 		longDescription:
@@ -865,13 +689,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 51,
 		title: "Ajax in Action",
 		isbn: "1932394613",
 		pageCount: 680,
-		publishedDate: {
-			$date: "2005-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2005-10-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/crane.jpg",
 		longDescription:
@@ -881,13 +702,10 @@ const books = [
 		categories: ["XML", "Internet"],
 	},
 	{
-		id: 52,
 		title: "Ajax in Practice",
 		isbn: "1932394990",
 		pageCount: 536,
-		publishedDate: {
-			$date: "2007-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2007-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/crane2.jpg",
 		longDescription:
@@ -903,13 +721,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 53,
 		title: "Prototype and Scriptaculous in Action",
 		isbn: "1933988037",
 		pageCount: 544,
-		publishedDate: {
-			$date: "2007-04-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2007-04-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/crane3.jpg",
 		longDescription:
@@ -919,13 +734,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 54,
 		title: "POJOs in Action",
 		isbn: "1932394583",
 		pageCount: 592,
-		publishedDate: {
-			$date: "2006-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2006-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/crichardson.jpg",
 		shortDescription:
@@ -937,13 +749,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 55,
 		title: "Data Munging with Perl",
 		isbn: "1930110006",
 		pageCount: 304,
-		publishedDate: {
-			$date: "2001-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2001-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cross.jpg",
 		longDescription:
@@ -953,13 +762,10 @@ const books = [
 		categories: ["Perl"],
 	},
 	{
-		id: 56,
 		title: "Hello! HTML5 & CSS3",
 		isbn: "1935182897",
 		pageCount: 325,
-		publishedDate: {
-			$date: "2012-10-17T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-10-17T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/crowther.jpg",
 		shortDescription:
@@ -971,13 +777,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 57,
 		title: "Seam in Action",
 		isbn: "1933988401",
 		pageCount: 624,
-		publishedDate: {
-			$date: "2008-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2008-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dallen.jpg",
 		shortDescription:
@@ -989,13 +792,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 58,
 		title: "Wicket in Action",
 		isbn: "1932394982",
 		pageCount: 392,
-		publishedDate: {
-			$date: "2008-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2008-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dashorst.jpg",
 		longDescription:
@@ -1005,13 +805,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 59,
 		title: "Open Source SOA",
 		isbn: "1933988541",
 		pageCount: 448,
-		publishedDate: {
-			$date: "2009-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/davis.jpg",
 		longDescription:
@@ -1021,13 +818,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 60,
 		title: "Struts 2 in Action",
 		isbn: "193398807X",
 		pageCount: 432,
-		publishedDate: {
-			$date: "2008-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2008-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dbrown.jpg",
 		longDescription:
@@ -1037,13 +831,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 61,
 		title: "Essential Guide to Peoplesoft Development and Customization",
 		isbn: "1884777929",
 		pageCount: 1101,
-		publishedDate: {
-			$date: "2000-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2000-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/delia.jpg",
 		longDescription:
@@ -1058,13 +849,10 @@ const books = [
 		categories: ["Client-Server"],
 	},
 	{
-		id: 62,
 		title: ".NET Multithreading",
 		isbn: "1930110545",
 		pageCount: 360,
-		publishedDate: {
-			$date: "2002-11-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2002-11-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dennis.jpg",
 		longDescription:
@@ -1074,13 +862,10 @@ const books = [
 		categories: ["Microsoft .NET", "Internet"],
 	},
 	{
-		id: 63,
 		title: "SCWCD Exam Study Kit Second Edition",
 		isbn: "1932394389",
 		pageCount: 560,
-		publishedDate: {
-			$date: "2005-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2005-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/deshmukh2.jpg",
 		longDescription:
@@ -1095,13 +880,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 64,
 		title: "Spring Roo in Action",
 		isbn: "193518296X",
 		pageCount: 500,
-		publishedDate: {
-			$date: "2012-04-13T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-04-13T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rimple.jpg",
 		status: "PUBLISH",
@@ -1109,13 +891,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 65,
 		title: "SOA Governance in Action",
 		isbn: "1617290270",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-07-27T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-07-27T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dirksen.jpg",
 		status: "PUBLISH",
@@ -1123,13 +902,10 @@ const books = [
 		categories: ["java"],
 	},
 	{
-		id: 66,
 		title: "RSS and Atom in Action",
 		isbn: "1932394494",
 		pageCount: 400,
-		publishedDate: {
-			$date: "2006-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2006-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dmjohnson.jpg",
 		longDescription:
@@ -1139,13 +915,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 67,
 		title: "LDAP Programming, Management and Integration",
 		isbn: "1930110405",
 		pageCount: 352,
-		publishedDate: {
-			$date: "2002-11-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2002-11-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/donley.jpg",
 		longDescription:
@@ -1155,13 +928,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 68,
 		title: "Mule in Action",
 		isbn: "1933988967",
 		pageCount: 432,
-		publishedDate: {
-			$date: "2009-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-07-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dossot.jpg",
 		longDescription:
@@ -1171,13 +941,10 @@ const books = [
 		categories: ["Java", "Software Engineering"],
 	},
 	{
-		id: 69,
 		title: "Java Foundation Classes",
 		isbn: "1884777678",
 		pageCount: 1088,
-		publishedDate: {
-			$date: "2001-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2001-10-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/drye.jpg",
 		longDescription:
@@ -1187,13 +954,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 70,
 		title: "Managing Components with Modeler",
 		isbn: "1932394524k-e",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2005-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2005-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal11.jpg",
 		status: "PUBLISH",
@@ -1201,13 +965,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 71,
 		title: "Command-line Processing with CLI",
 		isbn: "1932394524l-e",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2005-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2005-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal12.jpg",
 		status: "PUBLISH",
@@ -1215,13 +976,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 72,
 		title: "Understanding and Using Chain",
 		isbn: "1932394524m-e",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2005-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2005-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal13.jpg",
 		status: "PUBLISH",
@@ -1229,13 +987,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 73,
 		title: "Working with the Logging and Discovery Components",
 		isbn: "1932394524n-e",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2005-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2005-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal14.jpg",
 		status: "PUBLISH",
@@ -1243,13 +998,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 74,
 		title: "Uploading files with FileUpload",
 		isbn: "1932394524b-e",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2005-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2005-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal2.jpg",
 		status: "PUBLISH",
@@ -1257,13 +1009,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 75,
 		title: "Handling Protocols with the Net Component",
 		isbn: "1932394524c-e",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2005-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2005-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal3.jpg",
 		status: "PUBLISH",
@@ -1271,13 +1020,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 76,
 		title: "XML Parsing with Digester",
 		isbn: "1932394524d-e",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2005-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2005-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal4.jpg",
 		status: "PUBLISH",
@@ -1285,13 +1031,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 77,
 		title: "JXPath and Betwixt: Working with XML",
 		isbn: "1932394524e-e",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2005-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2005-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal5.jpg",
 		status: "PUBLISH",
@@ -1299,13 +1042,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 78,
 		title: "Validating Data with Validator",
 		isbn: "1932394524f-e",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2005-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2005-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal6.jpg",
 		status: "PUBLISH",
@@ -1313,13 +1053,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 79,
 		title: "Enhancing Java Core Libraries with Collections",
 		isbn: "1932394524g-e",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2005-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2005-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal7.jpg",
 		status: "PUBLISH",
@@ -1327,13 +1064,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 80,
 		title: "Enhancing Java Core Libraries with BeanUtils and Lang",
 		isbn: "1932394524h-e",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2005-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2005-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal8.jpg",
 		status: "PUBLISH",
@@ -1341,13 +1075,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 81,
 		title: "Pool and DBCP: Creating and Using Object Pools",
 		isbn: "1932394524i-e",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2005-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2005-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal9.jpg",
 		status: "PUBLISH",
@@ -1355,13 +1086,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 82,
 		title: "Python and Tkinter Programming",
 		isbn: "1884777813",
 		pageCount: 688,
-		publishedDate: {
-			$date: "2000-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2000-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/grayson.jpg",
 		longDescription:
@@ -1371,13 +1099,10 @@ const books = [
 		categories: ["Python"],
 	},
 	{
-		id: 83,
 		title: "Microsoft.NET for Programmers",
 		isbn: "1930110197",
 		pageCount: 386,
-		publishedDate: {
-			$date: "2002-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2002-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/grimes.jpg",
 		longDescription:
@@ -1387,13 +1112,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 84,
 		title: "Grails in Action",
 		isbn: "1933988932",
 		pageCount: 520,
-		publishedDate: {
-			$date: "2009-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/gsmith.jpg",
 		shortDescription:
@@ -1405,13 +1127,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 85,
 		title: "Up to Speed with Swing, Second Edition",
 		isbn: "1884777759",
 		pageCount: 560,
-		publishedDate: {
-			$date: "1999-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1999-10-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/gutz2.jpg",
 		shortDescription:
@@ -1423,13 +1142,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 86,
 		title: "OSGi in Action",
 		isbn: "1933988916",
 		pageCount: 576,
-		publishedDate: {
-			$date: "2011-04-06T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-04-06T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hall.jpg",
 		shortDescription:
@@ -1447,13 +1163,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 87,
 		title: "GWT in Action",
 		isbn: "1933988231",
 		pageCount: 632,
-		publishedDate: {
-			$date: "2007-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2007-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hanson.jpg",
 		longDescription:
@@ -1463,13 +1176,10 @@ const books = [
 		categories: ["Internet", "Java"],
 	},
 	{
-		id: 88,
 		title: "The Quick Python Book",
 		isbn: "1884777740",
 		pageCount: 444,
-		publishedDate: {
-			$date: "1999-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1999-10-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/harms.jpg",
 		longDescription:
@@ -1479,13 +1189,10 @@ const books = [
 		categories: ["Python"],
 	},
 	{
-		id: 89,
 		title: "SharePoint 2010 Site Owner's Manual",
 		isbn: "1933988754",
 		pageCount: 300,
-		publishedDate: {
-			$date: "2012-02-13T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2012-02-13T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/harryman.jpg",
 		shortDescription:
@@ -1497,13 +1204,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 90,
 		title: "Java Development with Ant",
 		isbn: "1930110588",
 		pageCount: 672,
-		publishedDate: {
-			$date: "2002-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2002-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hatcher.jpg",
 		shortDescription:
@@ -1515,13 +1219,10 @@ const books = [
 		categories: ["Java", "Internet"],
 	},
 	{
-		id: 91,
 		title: "Lucene in Action",
 		isbn: "1932394281",
 		pageCount: 456,
-		publishedDate: {
-			$date: "2004-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2004-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hatcher2.jpg",
 		longDescription:
@@ -1531,13 +1232,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 92,
 		title: "Lucene in Action, Second Edition",
 		isbn: "1933988177",
 		pageCount: 532,
-		publishedDate: {
-			$date: "2010-07-09T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2010-07-09T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hatcher3.jpg",
 		shortDescription:
@@ -1549,13 +1247,10 @@ const books = [
 		categories: ["Java", "Open Source"],
 	},
 	{
-		id: 93,
 		title: "PowerBuilder 6.0 Questions & Answers",
 		isbn: "1884777708",
 		pageCount: 446,
-		publishedDate: {
-			$date: "1998-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1998-07-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hatton.jpg",
 		shortDescription:
@@ -1567,13 +1262,10 @@ const books = [
 		categories: ["PowerBuilder"],
 	},
 	{
-		id: 94,
 		title: "The Awesome Power of PowerJ",
 		isbn: "1884777538",
 		pageCount: 378,
-		publishedDate: {
-			$date: "1998-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1998-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hatton2.jpg",
 		shortDescription:
@@ -1585,13 +1277,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 95,
 		title: "The Awesome Power of Power++",
 		isbn: "1884777546",
 		pageCount: 416,
-		publishedDate: {
-			$date: "1998-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1998-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hatton3.jpg",
 		shortDescription:
@@ -1603,13 +1292,10 @@ const books = [
 		categories: ["PowerBuilder"],
 	},
 	{
-		id: 96,
 		title: "Azure in Action",
 		isbn: "193518248X",
 		pageCount: 425,
-		publishedDate: {
-			$date: "2010-10-22T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2010-10-22T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hay.jpg",
 		shortDescription:
@@ -1621,7 +1307,6 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 97,
 		title: "Distributed Agile in Action",
 		isbn: "1935182412",
 		pageCount: 325,
@@ -1636,13 +1321,10 @@ const books = [
 		categories: ["Software Engineering"],
 	},
 	{
-		id: 98,
 		title: "Metaprogramming in .NET",
 		isbn: "1617290262",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-12-31T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2012-12-31T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hazzard.jpg",
 		status: "PUBLISH",
@@ -1650,12 +1332,9 @@ const books = [
 		categories: ["Microsoft/.NET"],
 	},
 	{
-		id: 99,
 		title: "Portlets and Apache Portals",
 		pageCount: 500,
-		publishedDate: {
-			$date: "2005-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2005-10-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hepper.jpg",
 		shortDescription:
@@ -1673,13 +1352,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 100,
 		title: "Code Generation in Action",
 		isbn: "1930110979",
 		pageCount: 350,
-		publishedDate: {
-			$date: "2003-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2003-07-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/herrington.jpg",
 		shortDescription:
@@ -1691,13 +1367,10 @@ const books = [
 		categories: ["Programming"],
 	},
 	{
-		id: 101,
 		title: "Illustrated Guide to HTTP",
 		isbn: "138582262",
 		pageCount: 400,
-		publishedDate: {
-			$date: "1997-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1997-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hethmon.jpg",
 		longDescription:
@@ -1707,13 +1380,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 102,
 		title: "Agile ALM",
 		isbn: "1935182633",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2011-08-20T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-08-20T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/huettermann.jpg",
 		shortDescription:
@@ -1725,13 +1395,10 @@ const books = [
 		categories: ["Software Engineering"],
 	},
 	{
-		id: 103,
 		title: "Java Network Programming, Second Edition",
 		isbn: "188477749X",
 		pageCount: 860,
-		publishedDate: {
-			$date: "1999-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1999-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hughes.jpg",
 		longDescription:
@@ -1741,13 +1408,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 104,
 		title: "Struts in Action",
 		isbn: "1932394249",
 		pageCount: 672,
-		publishedDate: {
-			$date: "2002-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2002-10-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/husted.jpg",
 		longDescription:
@@ -1762,13 +1426,10 @@ const books = [
 		categories: ["Java", "Internet"],
 	},
 	{
-		id: 105,
 		title: "Camel in Action",
 		isbn: "1935182366",
 		pageCount: 375,
-		publishedDate: {
-			$date: "2011-01-04T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2011-01-04T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ibsen.jpg",
 		shortDescription:
@@ -1780,13 +1441,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 106,
 		title: "Taming Text",
 		isbn: "193398838X",
 		pageCount: 350,
-		publishedDate: {
-			$date: "2012-12-31T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2012-12-31T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ingersoll.jpg",
 		shortDescription:
@@ -1803,13 +1461,10 @@ const books = [
 		categories: ["Software Engineering"],
 	},
 	{
-		id: 107,
 		title: "JBoss in Action",
 		isbn: "1933988029",
 		pageCount: 496,
-		publishedDate: {
-			$date: "2009-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2009-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jamae.jpg",
 		longDescription:
@@ -1819,13 +1474,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 108,
 		title: "Gnuplot in Action",
 		isbn: "1933988398",
 		pageCount: 400,
-		publishedDate: {
-			$date: "2009-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/janert.jpg",
 		longDescription:
@@ -1835,13 +1487,10 @@ const books = [
 		categories: ["Computer Graphics"],
 	},
 	{
-		id: 109,
 		title: "Extending and Embedding Perl",
 		isbn: "1930110820",
 		pageCount: 384,
-		publishedDate: {
-			$date: "2002-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2002-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jenness.jpg",
 		longDescription:
@@ -1851,13 +1500,10 @@ const books = [
 		categories: ["Perl"],
 	},
 	{
-		id: 110,
 		title: "iOS 4 in Action",
 		isbn: "1617290017",
 		pageCount: 504,
-		publishedDate: {
-			$date: "2011-06-09T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-06-09T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jharrington.jpg",
 		shortDescription:
@@ -1875,13 +1521,10 @@ const books = [
 		categories: ["Mobile Technology"],
 	},
 	{
-		id: 111,
 		title: "Elements of Programming with Perl",
 		isbn: "1884777805",
 		pageCount: 368,
-		publishedDate: {
-			$date: "1999-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1999-10-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/johnson.jpg",
 		longDescription:
@@ -1891,13 +1534,10 @@ const books = [
 		categories: ["Perl"],
 	},
 	{
-		id: 112,
 		title: "Learn Windows PowerShell in a Month of Lunches",
 		isbn: "1617290211",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2011-04-15T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-04-15T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones.jpg",
 		shortDescription:
@@ -1909,13 +1549,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 113,
 		title: "R in Action",
 		isbn: "1935182390",
 		pageCount: 375,
-		publishedDate: {
-			$date: "2011-08-15T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-08-15T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/kabacoff.jpg",
 		shortDescription:
@@ -1927,7 +1564,6 @@ const books = [
 		categories: ["Software Engineering"],
 	},
 	{
-		id: 114,
 		title: "Android in Practice",
 		isbn: "9781935182924",
 		pageCount: 0,
@@ -1938,13 +1574,10 @@ const books = [
 		categories: ["Mobile Technology"],
 	},
 	{
-		id: 115,
 		title: "SOA Security",
 		isbn: "1932394680",
 		pageCount: 512,
-		publishedDate: {
-			$date: "2007-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2007-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/kanneganti.jpg",
 		longDescription:
@@ -1954,13 +1587,10 @@ const books = [
 		categories: ["Software Engineering"],
 	},
 	{
-		id: 116,
 		title: "Rails 3 in Action",
 		isbn: "1935182277",
 		pageCount: 425,
-		publishedDate: {
-			$date: "2011-09-20T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-09-20T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/katz.jpg",
 		shortDescription:
@@ -1972,13 +1602,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 117,
 		title: "Continuous Integration in .NET",
 		isbn: "1935182552",
 		pageCount: 328,
-		publishedDate: {
-			$date: "2011-03-14T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-03-14T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/kawalerowicz.jpg",
 		shortDescription:
@@ -1990,13 +1617,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 118,
 		title: "Technology Paradise Lost",
 		isbn: "1932394133",
 		pageCount: 260,
-		publishedDate: {
-			$date: "2004-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2004-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/keller.jpg",
 		shortDescription:
@@ -2008,13 +1632,10 @@ const books = [
 		categories: ["Business"],
 	},
 	{
-		id: 119,
 		title: "Kermit 95+",
 		isbn: "1930110057",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2003-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2003-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/kermit.jpg",
 		longDescription:
@@ -2024,13 +1645,10 @@ const books = [
 		categories: ["Internet", "Networking", "Miscella"],
 	},
 	{
-		id: 120,
 		title: "Laszlo in Action",
 		isbn: "1932394834",
 		pageCount: 552,
-		publishedDate: {
-			$date: "2008-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2008-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/klein.jpg",
 		longDescription:
@@ -2040,13 +1658,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 121,
 		title: "Groovy in Action",
 		isbn: "1932394842",
 		pageCount: 696,
-		publishedDate: {
-			$date: "2007-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2007-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/koenig.jpg",
 		longDescription:
@@ -2061,7 +1676,6 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 122,
 		title: "Groovy in Action, Second Edition",
 		isbn: "1935182447",
 		pageCount: 700,
@@ -2085,13 +1699,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 123,
 		title: "Object Technology Centers of Excellence",
 		isbn: "132612313",
 		pageCount: 200,
-		publishedDate: {
-			$date: "1996-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1996-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/korson.jpg",
 		shortDescription:
@@ -2103,13 +1714,10 @@ const books = [
 		categories: ["Object-Technology Programming", ""],
 	},
 	{
-		id: 124,
 		title: "Test Driven",
 		isbn: "1932394850",
 		pageCount: 544,
-		publishedDate: {
-			$date: "2007-09-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2007-09-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/koskela.jpg",
 		longDescription:
@@ -2119,13 +1727,10 @@ const books = [
 		categories: ["Software Engineering"],
 	},
 	{
-		id: 125,
 		title: "Effective Unit Testing",
 		isbn: "1935182579",
 		pageCount: 350,
-		publishedDate: {
-			$date: "2013-02-04T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2013-02-04T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/koskela2.jpg",
 		status: "PUBLISH",
@@ -2133,13 +1738,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 126,
 		title: "Making Java Groovy",
 		isbn: "1935182943",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-09-19T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-09-19T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/kousen.jpg",
 		shortDescription:
@@ -2151,13 +1753,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 127,
 		title: "The Awesome Power of Direct3D/DirectX",
 		isbn: "1884777473",
 		pageCount: 840,
-		publishedDate: {
-			$date: "2002-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2002-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/kovach.jpg",
 		shortDescription:
@@ -2169,13 +1768,10 @@ const books = [
 		categories: ["Computer Graphics"],
 	},
 	{
-		id: 128,
 		title: "Practical Software Requirements",
 		isbn: "1884777597",
 		pageCount: 448,
-		publishedDate: {
-			$date: "1998-09-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1998-09-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/kovitz.jpg",
 		longDescription:
@@ -2185,13 +1781,10 @@ const books = [
 		categories: ["Software Engineering", "Theory"],
 	},
 	{
-		id: 129,
 		title: "NHibernate in Action",
 		isbn: "1932394923",
 		pageCount: 400,
-		publishedDate: {
-			$date: "2009-02-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2009-02-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/kuate.jpg",
 		longDescription:
@@ -2207,13 +1800,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 130,
 		title: "Microsoft Reporting Services in Action",
 		isbn: "1932394222",
 		pageCount: 656,
-		publishedDate: {
-			$date: "2004-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2004-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lachev.jpg",
 		longDescription:
@@ -2223,13 +1813,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 131,
 		title: "AspectJ in Action",
 		isbn: "1930110936",
 		pageCount: 512,
-		publishedDate: {
-			$date: "2003-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2003-07-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/laddad.jpg",
 		longDescription:
@@ -2239,13 +1826,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 132,
 		title: "AspectJ in Action, Second Edition",
 		isbn: "1933988053",
 		pageCount: 568,
-		publishedDate: {
-			$date: "2009-09-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-09-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/laddad2.jpg",
 		shortDescription:
@@ -2257,13 +1841,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 133,
 		title: "Hadoop in Action",
 		isbn: "1935182196",
 		pageCount: 325,
-		publishedDate: {
-			$date: "2010-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2010-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lam.jpg",
 		shortDescription:
@@ -2275,13 +1856,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 134,
 		title: "SQR in PeopleSoft and Other Applications",
 		isbn: "1884777775",
 		pageCount: 600,
-		publishedDate: {
-			$date: "2003-09-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2003-09-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/landres.jpg",
 		longDescription:
@@ -2291,13 +1869,10 @@ const books = [
 		categories: ["Business", "Client-Server"],
 	},
 	{
-		id: 135,
 		title: "SQR in PeopleSoft and Other Applications, Second Edition",
 		isbn: "1932394001",
 		pageCount: 696,
-		publishedDate: {
-			$date: "2003-09-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2003-09-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/landres2.jpg",
 		longDescription:
@@ -2307,7 +1882,6 @@ const books = [
 		categories: ["Business", "Client-Server"],
 	},
 	{
-		id: 136,
 		title: "F# in Action",
 		isbn: "1935182250",
 		pageCount: 425,
@@ -2322,13 +1896,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 137,
 		title: "Tuscany SCA in Action",
 		isbn: "1933988894",
 		pageCount: 472,
-		publishedDate: {
-			$date: "2011-02-12T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2011-02-12T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/laws.jpg",
 		shortDescription:
@@ -2346,13 +1917,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 138,
 		title: "Client/Server Yellow Pages",
 		isbn: "1884777082",
 		pageCount: 280,
-		publishedDate: {
-			$date: "1995-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1995-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lewis.jpg",
 		shortDescription:
@@ -2364,13 +1932,10 @@ const books = [
 		categories: ["Client-Server"],
 	},
 	{
-		id: 139,
 		title: "Object Oriented Application Frameworks",
 		isbn: "1884777066",
 		pageCount: 352,
-		publishedDate: {
-			$date: "1995-04-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1995-04-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lewis2.jpg",
 		shortDescription:
@@ -2382,13 +1947,10 @@ const books = [
 		categories: ["Object-Oriented Programming"],
 	},
 	{
-		id: 140,
 		title: "Tapestry in Action",
 		isbn: "1932394117",
 		pageCount: 580,
-		publishedDate: {
-			$date: "2004-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2004-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lewisship.jpg",
 		longDescription:
@@ -2398,13 +1960,10 @@ const books = [
 		categories: ["Java", "Internet"],
 	},
 	{
-		id: 141,
 		title: "WebWork in Action",
 		isbn: "1932394532",
 		pageCount: 400,
-		publishedDate: {
-			$date: "2005-09-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2005-09-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lightbody.jpg",
 		longDescription:
@@ -2414,13 +1973,10 @@ const books = [
 		categories: ["internet"],
 	},
 	{
-		id: 142,
 		title: "MacRuby in Action",
 		isbn: "1935182498",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-04-11T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-04-11T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lim.jpg",
 		status: "PUBLISH",
@@ -2428,13 +1984,10 @@ const books = [
 		categories: ["Programming"],
 	},
 	{
-		id: 143,
 		title: "Erlang and OTP in Action",
 		isbn: "1933988789",
 		pageCount: 500,
-		publishedDate: {
-			$date: "2010-11-16T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2010-11-16T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/logan.jpg",
 		shortDescription:
@@ -2446,13 +1999,10 @@ const books = [
 		categories: ["Programming"],
 	},
 	{
-		id: 144,
 		title: "SharePoint 2007 Developer's Guide to Business Data Catalog",
 		isbn: "1933988819",
 		pageCount: 304,
-		publishedDate: {
-			$date: "2009-09-09T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-09-09T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lonsdale.jpg",
 		shortDescription:
@@ -2464,13 +2014,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 145,
 		title: "Doing IT Right",
 		isbn: "133964256",
 		pageCount: 350,
-		publishedDate: {
-			$date: "1995-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1995-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lorin.jpg",
 		shortDescription:
@@ -2482,13 +2029,10 @@ const books = [
 		categories: ["Business", "Software Engineering"],
 	},
 	{
-		id: 146,
 		title: "Adobe AIR in Action",
 		isbn: "1933988487",
 		pageCount: 336,
-		publishedDate: {
-			$date: "2008-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2008-07-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lott.jpg",
 		longDescription:
@@ -2498,13 +2042,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 147,
 		title: "Ant in Action",
 		isbn: "193239480X",
 		pageCount: 600,
-		publishedDate: {
-			$date: "2007-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2007-07-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/loughran.jpg",
 		shortDescription:
@@ -2516,13 +2057,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 148,
 		title: "Restlet in Action",
 		isbn: "193518234X",
 		pageCount: 450,
-		publishedDate: {
-			$date: "2012-09-26T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-09-26T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/louvel.jpg",
 		shortDescription:
@@ -2534,13 +2072,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 149,
 		title: "iText in Action",
 		isbn: "1932394796",
 		pageCount: 688,
-		publishedDate: {
-			$date: "2006-11-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2006-11-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lowagie.jpg",
 		shortDescription:
@@ -2552,13 +2087,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 150,
 		title: "iText in Action, Second Edition",
 		isbn: "1935182617",
 		pageCount: 600,
-		publishedDate: {
-			$date: "2010-11-22T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2010-11-22T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lowagie2.jpg",
 		shortDescription:
@@ -2570,13 +2102,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 151,
 		title: "Power-3D",
 		isbn: "138412146",
 		pageCount: 550,
-		publishedDate: {
-			$date: "1997-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1997-10-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lussier.jpg",
 		longDescription:
@@ -2586,13 +2115,10 @@ const books = [
 		categories: ["Computer Graphics"],
 	},
 	{
-		id: 152,
 		title: "SNA and TCP/IP Enterprise Networking",
 		isbn: "131271687",
 		pageCount: 540,
-		publishedDate: {
-			$date: "1997-09-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1997-09-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lynch.jpg",
 		shortDescription:
@@ -2609,13 +2135,10 @@ const books = [
 		categories: ["Software Engineering", "Theory"],
 	},
 	{
-		id: 153,
 		title: "Subversion in Action",
 		isbn: "1932394478",
 		pageCount: 356,
-		publishedDate: {
-			$date: "2004-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2004-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/machols.jpg",
 		shortDescription:
@@ -2627,13 +2150,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 154,
 		title: "Minimal Perl",
 		isbn: "1932394508",
 		pageCount: 504,
-		publishedDate: {
-			$date: "2006-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2006-07-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/maher.jpg",
 		longDescription:
@@ -2643,13 +2163,10 @@ const books = [
 		categories: ["Perl"],
 	},
 	{
-		id: 155,
 		title: "Distributed Programming with Java",
 		isbn: "1884777651",
 		pageCount: 320,
-		publishedDate: {
-			$date: "1999-09-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1999-09-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mahmoud.jpg",
 		longDescription:
@@ -2659,13 +2176,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 156,
 		title: "Comprehensive Networking Glossary and Acronym Guide",
 		isbn: "013319955X",
 		pageCount: 208,
-		publishedDate: {
-			$date: "1995-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1995-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/malkin.jpg",
 		shortDescription:
@@ -2677,13 +2191,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 157,
 		title: "JavaServer Faces in Action",
 		isbn: "1932394125",
 		pageCount: 744,
-		publishedDate: {
-			$date: "2004-11-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2004-11-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mann.jpg",
 		longDescription:
@@ -2693,13 +2204,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 158,
 		title: "LINQ in Action",
 		isbn: "1933988169",
 		pageCount: 576,
-		publishedDate: {
-			$date: "2008-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2008-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/marguerie.jpg",
 		longDescription:
@@ -2709,13 +2217,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 159,
 		title: "Internet BBSs",
 		isbn: "132869985",
 		pageCount: 400,
-		publishedDate: {
-			$date: "1996-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1996-10-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mark.jpg",
 		shortDescription:
@@ -2727,13 +2232,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 160,
 		title: "Algorithms of the Intelligent Web",
 		isbn: "1933988665",
 		pageCount: 368,
-		publishedDate: {
-			$date: "2009-05-29T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-05-29T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/marmanis.jpg",
 		longDescription:
@@ -2743,13 +2245,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 161,
 		title: "JUnit in Action",
 		isbn: "1930110995",
 		pageCount: 384,
-		publishedDate: {
-			$date: "2003-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2003-10-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/massol.jpg",
 		longDescription:
@@ -2759,13 +2258,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 162,
 		title: "Tika in Action",
 		isbn: "1935182854",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2011-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2011-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mattmann.jpg",
 		status: "PUBLISH",
@@ -2773,13 +2269,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 163,
 		title: "Ruby in Practice",
 		isbn: "1933988479",
 		pageCount: 360,
-		publishedDate: {
-			$date: "2009-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2009-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mcanally.jpg",
 		longDescription:
@@ -2789,13 +2282,10 @@ const books = [
 		categories: ["Programming"],
 	},
 	{
-		id: 164,
 		title: "Inside LotusScript",
 		isbn: "1884777481",
 		pageCount: 420,
-		publishedDate: {
-			$date: "1997-11-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1997-11-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mcginn.jpg",
 		shortDescription:
@@ -2807,13 +2297,10 @@ const books = [
 		categories: ["Business"],
 	},
 	{
-		id: 165,
 		title: "Maximum MIDI",
 		isbn: "1884777449",
 		pageCount: 450,
-		publishedDate: {
-			$date: "1997-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1997-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/messick.jpg",
 		longDescription:
@@ -2823,13 +2310,10 @@ const books = [
 		categories: ["Programming"],
 	},
 	{
-		id: 166,
 		title: "Planning and Managing ATM Networks",
 		isbn: "132621894",
 		pageCount: 320,
-		publishedDate: {
-			$date: "1997-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1997-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/minoli.jpg",
 		shortDescription:
@@ -2841,13 +2325,10 @@ const books = [
 		categories: ["Client-Server", "Networking"],
 	},
 	{
-		id: 167,
 		title: "Client/Server Applications on ATM Networks",
 		isbn: "137353006",
 		pageCount: 350,
-		publishedDate: {
-			$date: "1997-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1997-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/minoli2.jpg",
 		shortDescription:
@@ -2859,13 +2340,10 @@ const books = [
 		categories: ["Client-Server", "Networking"],
 	},
 	{
-		id: 168,
 		title: "JavaFX in Action",
 		isbn: "1933988991",
 		pageCount: 373,
-		publishedDate: {
-			$date: "2009-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-10-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/morris.jpg",
 		longDescription:
@@ -2875,13 +2353,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 169,
 		title: "Entity Framework 4 in Action",
 		isbn: "1935182188",
 		pageCount: 576,
-		publishedDate: {
-			$date: "2011-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mostarda.jpg",
 		shortDescription:
@@ -2898,13 +2373,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 170,
 		title: "ASP.NET 2.0 Web Parts in Action",
 		isbn: "193239477X",
 		pageCount: 344,
-		publishedDate: {
-			$date: "2006-09-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2006-09-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/neimke.jpg",
 		shortDescription:
@@ -2916,13 +2388,10 @@ const books = [
 		categories: ["Microsoft"],
 	},
 	{
-		id: 171,
 		title: "Sass and Compass in Action",
 		isbn: "1617290149",
 		pageCount: 300,
-		publishedDate: {
-			$date: "2013-07-26T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-07-26T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/netherland.jpg",
 		shortDescription:
@@ -2940,13 +2409,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 172,
 		title: "Core OWL 5.0",
 		isbn: "1884777503",
 		pageCount: 500,
-		publishedDate: {
-			$date: "1997-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1997-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/neward.jpg",
 		shortDescription:
@@ -2958,13 +2424,10 @@ const books = [
 		categories: ["Programming"],
 	},
 	{
-		id: 173,
 		title: "Advanced OWL 5.0",
 		isbn: "1884777465",
 		pageCount: 570,
-		publishedDate: {
-			$date: "1998-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1998-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/neward2.jpg",
 		shortDescription:
@@ -2976,13 +2439,10 @@ const books = [
 		categories: ["Programming"],
 	},
 	{
-		id: 174,
 		title: "Server-Based Java Programming",
 		isbn: "1884777716",
 		pageCount: 592,
-		publishedDate: {
-			$date: "2000-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2000-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/neward3.jpg",
 		longDescription:
@@ -2992,13 +2452,10 @@ const books = [
 		categories: ["Java", "Client-Server", "Internet"],
 	},
 	{
-		id: 175,
 		title: "SQL Server MVP Deep Dives",
 		isbn: "1935182048",
 		pageCount: 848,
-		publishedDate: {
-			$date: "2009-11-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-11-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/nielsen.jpg",
 		shortDescription:
@@ -3019,13 +2476,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 176,
 		title: "SQL Server MVP Deep Dives",
 		isbn: "9781935182047",
 		pageCount: 848,
-		publishedDate: {
-			$date: "2009-11-15T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2009-11-15T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/nielsenaw.jpg",
 		shortDescription:
@@ -3045,13 +2499,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 177,
 		title: "SQL Server MVP Deep Dives",
 		isbn: "9781935182047",
 		pageCount: 848,
-		publishedDate: {
-			$date: "2009-11-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-11-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/nielsonaw.jpg",
 		status: "PUBLISH",
@@ -3067,13 +2518,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 178,
 		title: "PostGIS in Action",
 		isbn: "1935182269",
 		pageCount: 325,
-		publishedDate: {
-			$date: "2011-04-11T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-04-11T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/obe.jpg",
 		shortDescription:
@@ -3085,13 +2533,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 179,
 		title: "Programming Mac OS X",
 		isbn: "1930110855",
 		pageCount: 384,
-		publishedDate: {
-			$date: "2003-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2003-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/omalley.jpg",
 		shortDescription:
@@ -3103,13 +2548,10 @@ const books = [
 		categories: ["Programming"],
 	},
 	{
-		id: 180,
 		title: "The Art of Unit Testing",
 		isbn: "1933988274",
 		pageCount: 320,
-		publishedDate: {
-			$date: "2009-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/osherove.jpg",
 		longDescription:
@@ -3119,13 +2561,10 @@ const books = [
 		categories: ["Software Engineering"],
 	},
 	{
-		id: 181,
 		title: "Mahout in Action",
 		isbn: "1935182684",
 		pageCount: 375,
-		publishedDate: {
-			$date: "2011-10-05T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-10-05T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/owen.jpg",
 		status: "PUBLISH",
@@ -3139,13 +2578,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 182,
 		title: "ASP.NET MVC in Action",
 		isbn: "1933988622",
 		pageCount: 392,
-		publishedDate: {
-			$date: "2009-09-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-09-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/palermo.jpg",
 		shortDescription:
@@ -3157,13 +2593,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 183,
 		title: "ASP.NET MVC 2 in Action",
 		isbn: "193518279X",
 		pageCount: 432,
-		publishedDate: {
-			$date: "2010-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2010-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/palermo2.jpg",
 		shortDescription:
@@ -3182,13 +2615,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 184,
 		title: "ASP.NET MVC 4 in Action",
 		isbn: "1617290416",
 		pageCount: 450,
-		publishedDate: {
-			$date: "2012-05-25T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-05-25T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/palermo3.jpg",
 		shortDescription:
@@ -3207,13 +2637,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 185,
 		title: "EJB 3 in Action",
 		isbn: "1933988347",
 		pageCount: 712,
-		publishedDate: {
-			$date: "2007-04-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2007-04-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/panda.jpg",
 		longDescription:
@@ -3223,13 +2650,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 186,
 		title: "EJB 3 in Action, Second Edition",
 		isbn: "1935182994",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-04-07T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2014-04-07T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/panda2.jpg",
 		shortDescription:
@@ -3247,13 +2671,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 187,
 		title: "Explorer's Guide to the Semantic Web",
 		isbn: "1932394206",
 		pageCount: 304,
-		publishedDate: {
-			$date: "2004-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2004-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/passin.jpg",
 		shortDescription:
@@ -3265,13 +2686,10 @@ const books = [
 		categories: ["Internet", "Theory", "XML"],
 	},
 	{
-		id: 188,
 		title: "Practical LotusScript",
 		isbn: "1884777767",
 		pageCount: 512,
-		publishedDate: {
-			$date: "1999-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1999-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/patton.jpg",
 		longDescription:
@@ -3281,13 +2699,10 @@ const books = [
 		categories: ["Business"],
 	},
 	{
-		id: 189,
 		title: "Domino Development with Java",
 		isbn: "1930110049",
 		pageCount: 467,
-		publishedDate: {
-			$date: "2000-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2000-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/patton2.jpg",
 		longDescription:
@@ -3297,13 +2712,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 190,
 		title: "Windows PowerShell in Action",
 		isbn: "1932394907",
 		pageCount: 576,
-		publishedDate: {
-			$date: "2007-02-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2007-02-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/payette.jpg",
 		shortDescription:
@@ -3315,13 +2727,10 @@ const books = [
 		categories: ["Microsoft"],
 	},
 	{
-		id: 191,
 		title: "Windows PowerShell in Action, Second Edition",
 		isbn: "1935182137",
 		pageCount: 700,
-		publishedDate: {
-			$date: "2011-05-15T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-05-15T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/payette2.jpg",
 		shortDescription:
@@ -3333,13 +2742,10 @@ const books = [
 		categories: ["Microsoft"],
 	},
 	{
-		id: 192,
 		title: "Silverlight 4 in Action, Revised Edition",
 		isbn: "1935182374",
 		pageCount: 425,
-		publishedDate: {
-			$date: "2010-10-04T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2010-10-04T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/pbrown.jpg",
 		shortDescription:
@@ -3351,13 +2757,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 193,
 		title: "Silverlight 5 in Action",
 		isbn: "1617290319",
 		pageCount: 925,
-		publishedDate: {
-			$date: "2012-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/pbrown2.jpg",
 		status: "PUBLISH",
@@ -3365,13 +2768,10 @@ const books = [
 		categories: ["Microsoft", ".NET"],
 	},
 	{
-		id: 194,
 		title: "Hibernate Quickly",
 		isbn: "1932394419",
 		pageCount: 456,
-		publishedDate: {
-			$date: "2005-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2005-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/peak.jpg",
 		shortDescription:
@@ -3383,13 +2783,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 195,
 		title: "Generative Art",
 		isbn: "1935182625",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2011-06-30T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-06-30T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/pearson.jpg",
 		status: "PUBLISH",
@@ -3397,13 +2794,10 @@ const books = [
 		categories: ["Algorithmic Art"],
 	},
 	{
-		id: 196,
 		title: "Windows Phone 7 in Action",
 		isbn: "1617290092",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-08-21T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-08-21T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/perga.jpg",
 		shortDescription:
@@ -3415,13 +2809,10 @@ const books = [
 		categories: ["Mobile Technology"],
 	},
 	{
-		id: 197,
 		title: "Lift in Action",
 		isbn: "1935182803",
 		pageCount: 450,
-		publishedDate: {
-			$date: "2011-11-18T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2011-11-18T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/perrett.jpg",
 		status: "PUBLISH",
@@ -3429,13 +2820,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 198,
 		title: "Web Development with Apache and Perl",
 		isbn: "1930110065",
 		pageCount: 424,
-		publishedDate: {
-			$date: "2002-04-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2002-04-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/petersen.jpg",
 		longDescription:
@@ -3445,13 +2833,10 @@ const books = [
 		categories: ["Perl", "Client-Server"],
 	},
 	{
-		id: 199,
 		title: "Real-World Functional Programming",
 		isbn: "1933988924",
 		pageCount: 560,
-		publishedDate: {
-			$date: "2009-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2009-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/petricek.jpg",
 		shortDescription:
@@ -3463,13 +2848,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 200,
 		title: "Machine Learning in Action",
 		isbn: "1617290181",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-04-04T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-04-04T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/pharrington.jpg",
 		shortDescription:
@@ -3481,13 +2863,10 @@ const books = [
 		categories: ["Software Engineering"],
 	},
 	{
-		id: 201,
 		title: "Dependency Injection",
 		isbn: "193398855X",
 		pageCount: 352,
-		publishedDate: {
-			$date: "2009-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/prasanna.jpg",
 		shortDescription:
@@ -3499,13 +2878,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 202,
 		title: "Understanding Enterprise SOA",
 		isbn: "1932394591",
 		pageCount: 280,
-		publishedDate: {
-			$date: "2005-11-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2005-11-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/pulier.jpg",
 		shortDescription:
@@ -3517,13 +2893,10 @@ const books = [
 		categories: ["Theory"],
 	},
 	{
-		id: 203,
 		title: "Open-Source ESBs in Action",
 		isbn: "1933988215",
 		pageCount: 528,
-		publishedDate: {
-			$date: "2008-09-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2008-09-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rademakers.jpg",
 		longDescription:
@@ -3533,13 +2906,10 @@ const books = [
 		categories: ["Business"],
 	},
 	{
-		id: 204,
 		title: "Activiti in Action",
 		isbn: "1617290122",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-07-12T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-07-12T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rademakers2.jpg",
 		status: "PUBLISH",
@@ -3547,13 +2917,10 @@ const books = [
 		categories: ["Software Engineering"],
 	},
 	{
-		id: 205,
 		title: "DSLs in Boo: Domain-Specific Languages in .NET",
 		isbn: "1933988606",
 		pageCount: 352,
-		publishedDate: {
-			$date: "2010-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2010-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rahien.jpg",
 		shortDescription:
@@ -3565,13 +2932,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 206,
 		title: "JUnit Recipes",
 		isbn: "1932394230",
 		pageCount: 752,
-		publishedDate: {
-			$date: "2004-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2004-07-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rainsberger.jpg",
 		longDescription:
@@ -3581,13 +2945,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 207,
 		title: "wxPython in Action",
 		isbn: "1932394621",
 		pageCount: 620,
-		publishedDate: {
-			$date: "2006-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2006-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rappin.jpg",
 		shortDescription:
@@ -3599,13 +2960,10 @@ const books = [
 		categories: ["Python"],
 	},
 	{
-		id: 208,
 		title: "Clojure in Action",
 		isbn: "1935182595",
 		pageCount: 475,
-		publishedDate: {
-			$date: "2011-11-15T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2011-11-15T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rathore.jpg",
 		shortDescription:
@@ -3617,13 +2975,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 209,
 		title: "Scala in Action",
 		isbn: "1935182757",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-04-09T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-04-09T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/raychaudhuri.jpg",
 		status: "PUBLISH",
@@ -3631,13 +2986,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 210,
 		title: "Working with Objects",
 		isbn: "134529308",
 		pageCount: 420,
-		publishedDate: {
-			$date: "1995-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1995-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/reenskaug.jpg",
 		shortDescription:
@@ -3649,13 +3001,10 @@ const books = [
 		categories: ["Object-Oriented Programming"],
 	},
 	{
-		id: 211,
 		title: "PHP in Action",
 		isbn: "1932394753",
 		pageCount: 552,
-		publishedDate: {
-			$date: "2007-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2007-07-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/reiersol.jpg",
 		shortDescription:
@@ -3667,13 +3016,10 @@ const books = [
 		categories: ["PHP"],
 	},
 	{
-		id: 212,
 		title: "Secrets of the JavaScript Ninja",
 		isbn: "193398869X",
 		pageCount: 300,
-		publishedDate: {
-			$date: "2012-12-27T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2012-12-27T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/resig.jpg",
 		shortDescription:
@@ -3685,13 +3031,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 213,
 		title: "Microsoft Office Essentials",
 		isbn: "132623129",
 		pageCount: 480,
-		publishedDate: {
-			$date: "1996-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1996-07-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/richardson2.jpg",
 		shortDescription:
@@ -3703,25 +3046,19 @@ const books = [
 		categories: ["Business"],
 	},
 	{
-		id: 214,
 		title: "Swing",
 		isbn: "1884777848",
 		pageCount: 0,
-		publishedDate: {
-			$date: "1999-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1999-12-01T00:00:00.000-0800" },
 		status: "PUBLISH",
 		authors: ["Matthew Robinson", "Pavel Vorobiev"],
 		categories: ["Java"],
 	},
 	{
-		id: 215,
 		title: "The Awesome Power of Java Beans",
 		isbn: "1884777562",
 		pageCount: 500,
-		publishedDate: {
-			$date: "1998-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1998-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rodrigues.jpg",
 		longDescription:
@@ -3731,13 +3068,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 216,
 		title: "Personal Videoconferencing",
 		isbn: "013268327X",
 		pageCount: 420,
-		publishedDate: {
-			$date: "1996-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1996-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rosen.jpg",
 		shortDescription:
@@ -3749,13 +3083,10 @@ const books = [
 		categories: ["Networking"],
 	},
 	{
-		id: 217,
 		title: "The Cloud at Your Service",
 		isbn: "1935182528",
 		pageCount: 200,
-		publishedDate: {
-			$date: "2010-11-22T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2010-11-22T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rosenberg.jpg",
 		status: "PUBLISH",
@@ -3763,13 +3094,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 218,
 		title: "Implementing Elliptic Curve Cryptography",
 		isbn: "1884777694",
 		pageCount: 330,
-		publishedDate: {
-			$date: "1998-11-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1998-11-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rosing.jpg",
 		shortDescription:
@@ -3781,13 +3109,10 @@ const books = [
 		categories: ["Theory"],
 	},
 	{
-		id: 219,
 		title: "SOA Patterns",
 		isbn: "1933988266",
 		pageCount: 250,
-		publishedDate: {
-			$date: "2012-09-12T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-09-12T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rotem.jpg",
 		shortDescription:
@@ -3799,13 +3124,10 @@ const books = [
 		categories: ["SOA"],
 	},
 	{
-		id: 220,
 		title: "Hello World!",
 		isbn: "1933988495",
 		pageCount: 432,
-		publishedDate: {
-			$date: "2009-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2009-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sande.jpg",
 		shortDescription:
@@ -3817,13 +3139,10 @@ const books = [
 		categories: ["Programming", "Python"],
 	},
 	{
-		id: 221,
 		title: "SCBCD Exam Study Kit",
 		isbn: "1932394400",
 		pageCount: 488,
-		publishedDate: {
-			$date: "2005-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2005-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sanghera.jpg",
 		longDescription:
@@ -3833,13 +3152,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 222,
 		title: "Portlets in Action",
 		isbn: "1935182544",
 		pageCount: 475,
-		publishedDate: {
-			$date: "2011-09-16T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-09-16T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sarin.jpg",
 		shortDescription:
@@ -3851,13 +3167,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 223,
 		title: "SWT/JFace in Action",
 		isbn: "1932394273",
 		pageCount: 496,
-		publishedDate: {
-			$date: "2004-11-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2004-11-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/scarpino.jpg",
 		shortDescription:
@@ -3875,13 +3188,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 224,
 		title: "OpenCL in Action",
 		isbn: "1617290173",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2011-11-14T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2011-11-14T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/scarpino2.jpg",
 		status: "PUBLISH",
@@ -3889,13 +3199,10 @@ const books = [
 		categories: ["Programming"],
 	},
 	{
-		id: 225,
 		title: "Multiprotocol over ATM",
 		isbn: "138892709",
 		pageCount: 341,
-		publishedDate: {
-			$date: "1998-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1998-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/schmidt.jpg",
 		shortDescription:
@@ -3907,13 +3214,10 @@ const books = [
 		categories: ["Internet", "Networking"],
 	},
 	{
-		id: 226,
 		title: "Dependency Injection in .NET",
 		isbn: "1935182501",
 		pageCount: 375,
-		publishedDate: {
-			$date: "2011-10-03T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-10-03T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/seemann.jpg",
 		shortDescription:
@@ -3925,13 +3229,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 227,
 		title: "Java 3D Programming",
 		isbn: "1930110359",
 		pageCount: 400,
-		publishedDate: {
-			$date: "2002-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2002-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/selman.jpg",
 		longDescription:
@@ -3941,13 +3242,10 @@ const books = [
 		categories: ["Java", "Internet", "Computer Graph"],
 	},
 	{
-		id: 228,
 		title: "Liferay in Action",
 		isbn: "193518282X",
 		pageCount: 375,
-		publishedDate: {
-			$date: "2011-09-20T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-09-20T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sezov.jpg",
 		status: "PUBLISH",
@@ -3955,13 +3253,10 @@ const books = [
 		categories: ["Internet"],
 	},
 	{
-		id: 229,
 		title: "JSP Tag Libraries",
 		isbn: "193011009X",
 		pageCount: 656,
-		publishedDate: {
-			$date: "2001-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2001-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/shachor.jpg",
 		longDescription:
@@ -3971,13 +3266,10 @@ const books = [
 		categories: ["Java", "Internet"],
 	},
 	{
-		id: 230,
 		title: "Instant Messaging in Java",
 		isbn: "1930110464",
 		pageCount: 402,
-		publishedDate: {
-			$date: "2002-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2002-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/shigeoka.jpg",
 		shortDescription:
@@ -3989,13 +3281,10 @@ const books = [
 		categories: ["Internet", "Java"],
 	},
 	{
-		id: 231,
 		title: "Java Applets and Channels Without Programming",
 		isbn: "1884777392",
 		pageCount: 372,
-		publishedDate: {
-			$date: "1999-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1999-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/shoffner.jpg",
 		shortDescription:
@@ -4014,13 +3303,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 232,
 		title: "PowerShell in Practice",
 		isbn: "1935182005",
 		pageCount: 500,
-		publishedDate: {
-			$date: "2010-06-08T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2010-06-08T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/siddaway.jpg",
 		shortDescription:
@@ -4032,13 +3318,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 233,
 		title: "PowerShell and WMI",
 		isbn: "1617290114",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-04-30T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-04-30T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/siddaway2.jpg",
 		status: "PUBLISH",
@@ -4046,13 +3329,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 234,
 		title: "Making Sense of Java",
 		isbn: "132632942",
 		pageCount: 180,
-		publishedDate: {
-			$date: "1996-06-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1996-06-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/simpson.jpg",
 		shortDescription:
@@ -4071,13 +3351,10 @@ const books = [
 		categories: ["Java", "Business"],
 	},
 	{
-		id: 235,
 		title: "C++/CLI in Action",
 		isbn: "1932394818",
 		pageCount: 416,
-		publishedDate: {
-			$date: "2007-04-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2007-04-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sivakumar.jpg",
 		shortDescription:
@@ -4089,13 +3366,10 @@ const books = [
 		categories: ["Microsoft"],
 	},
 	{
-		id: 236,
 		title: "C# in Depth",
 		isbn: "1933988363",
 		pageCount: 424,
-		publishedDate: {
-			$date: "2008-04-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2008-04-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/skeet.jpg",
 		longDescription:
@@ -4105,7 +3379,6 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 237,
 		title: "C# in Depth, Second Edition",
 		isbn: "1935182471",
 		pageCount: 584,
@@ -4120,13 +3393,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 238,
 		title: "Magical A-Life Avatars",
 		isbn: "1884777589",
 		pageCount: 450,
-		publishedDate: {
-			$date: "2000-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2000-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/small.jpg",
 		shortDescription:
@@ -4138,13 +3408,10 @@ const books = [
 		categories: ["Internet", "Theory"],
 	},
 	{
-		id: 239,
 		title: "Becoming Agile",
 		isbn: "1933988258",
 		pageCount: 408,
-		publishedDate: {
-			$date: "2009-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2009-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/smith.jpg",
 		shortDescription:
@@ -4156,13 +3423,10 @@ const books = [
 		categories: ["Software Engineering"],
 	},
 	{
-		id: 240,
 		title: "ActiveMQ in Action",
 		isbn: "1933988940",
 		pageCount: 408,
-		publishedDate: {
-			$date: "2011-03-31T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-03-31T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/snyder.jpg",
 		shortDescription:
@@ -4174,13 +3438,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 241,
 		title: "Implementing PeopleSoft Financials",
 		isbn: "138411808",
 		pageCount: 220,
-		publishedDate: {
-			$date: "1997-01-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1997-01-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/stephens.jpg",
 		shortDescription:
@@ -4192,13 +3453,10 @@ const books = [
 		categories: ["Business", "Client-Server"],
 	},
 	{
-		id: 242,
 		title: "SQL Server DMVs in Action",
 		isbn: "1935182730",
 		pageCount: 352,
-		publishedDate: {
-			$date: "2011-05-09T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-05-09T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/stirk.jpg",
 		shortDescription:
@@ -4210,13 +3468,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 243,
 		title: "Scala in Depth",
 		isbn: "1935182706",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-05-14T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-05-14T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/suereth.jpg",
 		shortDescription:
@@ -4228,13 +3483,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 244,
 		title: "JMX in Action",
 		isbn: "1930110561",
 		pageCount: 424,
-		publishedDate: {
-			$date: "2002-09-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2002-09-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sullins.jpg",
 		longDescription:
@@ -4244,13 +3496,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 245,
 		title: "EJB Cookbook",
 		isbn: "1930110944",
 		pageCount: 352,
-		publishedDate: {
-			$date: "2003-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2003-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sullins2.jpg",
 		shortDescription:
@@ -4262,13 +3511,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 246,
 		title: "GWT in Action, Second Edition",
 		isbn: "1935182846",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-01-21T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2013-01-21T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/tacy.jpg",
 		status: "PUBLISH",
@@ -4282,13 +3528,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 247,
 		title: "JUnit in Action, Second Edition",
 		isbn: "1935182021",
 		pageCount: 504,
-		publishedDate: {
-			$date: "2010-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2010-07-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/tahchiev.jpg",
 		shortDescription:
@@ -4306,13 +3549,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 248,
 		title: "Bitter Java",
 		isbn: "193011043X",
 		pageCount: 368,
-		publishedDate: {
-			$date: "2002-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2002-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/tate.jpg",
 		longDescription:
@@ -4322,13 +3562,10 @@ const books = [
 		categories: ["Java", "Business", "Client Server", ""],
 	},
 	{
-		id: 249,
 		title: "Bitter EJB",
 		isbn: "1930110952",
 		pageCount: 440,
-		publishedDate: {
-			$date: "2003-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2003-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/tate2.jpg",
 		shortDescription:
@@ -4340,13 +3577,10 @@ const books = [
 		categories: ["Java", "Internet"],
 	},
 	{
-		id: 250,
 		title: "Spring Batch in Action",
 		isbn: "1935182951",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2011-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-10-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/templier.jpg",
 		status: "PUBLISH",
@@ -4359,13 +3593,10 @@ const books = [
 		categories: ["In Action"],
 	},
 	{
-		id: 251,
 		title: "JDK 1.4 Tutorial",
 		isbn: "1930110456",
 		pageCount: 408,
-		publishedDate: {
-			$date: "2002-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2002-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/travis.jpg",
 		longDescription:
@@ -4375,13 +3606,10 @@ const books = [
 		categories: ["Java", "Internet"],
 	},
 	{
-		id: 252,
 		title: "iPhone and iPad in Action",
 		isbn: "1935182587",
 		pageCount: 450,
-		publishedDate: {
-			$date: "2010-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2010-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/trebitowski.jpg",
 		shortDescription:
@@ -4398,13 +3626,10 @@ const books = [
 		categories: ["Mobile Technology"],
 	},
 	{
-		id: 253,
 		title: "SQL Server 2005 Reporting Services in Action",
 		isbn: "1932394761",
 		pageCount: 600,
-		publishedDate: {
-			$date: "2006-11-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2006-11-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/updegraff.jpg",
 		longDescription:
@@ -4414,13 +3639,10 @@ const books = [
 		categories: ["Microsoft"],
 	},
 	{
-		id: 254,
 		title: "Ten Years of UserFriendly.Org",
 		isbn: "1935182129",
 		pageCount: 1096,
-		publishedDate: {
-			$date: "2008-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2008-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/userfriendly.jpg",
 		shortDescription:
@@ -4432,13 +3654,10 @@ const books = [
 		categories: ["Miscellaneous"],
 	},
 	{
-		id: 255,
 		title: "Graphics Programming with Perl",
 		isbn: "1930110022",
 		pageCount: 328,
-		publishedDate: {
-			$date: "2002-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2002-05-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/verbruggen.jpg",
 		longDescription:
@@ -4448,13 +3667,10 @@ const books = [
 		categories: ["Computer Graphics", "Perl"],
 	},
 	{
-		id: 256,
 		title: "RabbitMQ in Action",
 		isbn: "1935182978",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-04-20T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-04-20T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/videla.jpg",
 		status: "PUBLISH",
@@ -4462,13 +3678,10 @@ const books = [
 		categories: ["Software Engineering"],
 	},
 	{
-		id: 257,
 		title: "XDoclet in Action",
 		isbn: "1932394052",
 		pageCount: 624,
-		publishedDate: {
-			$date: "2003-11-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2003-11-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/walls.jpg",
 		longDescription:
@@ -4478,13 +3691,10 @@ const books = [
 		categories: ["XML", "Java"],
 	},
 	{
-		id: 258,
 		title: "Spring in Action",
 		isbn: "1932394354",
 		pageCount: 472,
-		publishedDate: {
-			$date: "2005-02-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2005-02-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/walls2.jpg",
 		shortDescription:
@@ -4496,13 +3706,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 259,
 		title: "Spring in Action, Second Edition",
 		isbn: "1933988134",
 		pageCount: 768,
-		publishedDate: {
-			$date: "2007-08-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2007-08-01T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/walls3.jpg",
 		longDescription:
@@ -4512,13 +3719,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 260,
 		title: "Spring in Action, Third Edition",
 		isbn: "1935182358",
 		pageCount: 424,
-		publishedDate: {
-			$date: "2011-06-21T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-06-21T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/walls4.jpg",
 		shortDescription:
@@ -4530,13 +3734,10 @@ const books = [
 		categories: ["Java"],
 	},
 	{
-		id: 261,
 		title: "Spring in Practice",
 		isbn: "1935182056",
 		pageCount: 600,
-		publishedDate: {
-			$date: "2013-05-09T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-05-09T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/wheeler.jpg",
 		shortDescription:
@@ -4548,13 +3749,10 @@ const books = [
 		categories: ["Java", "Software Development"],
 	},
 	{
-		id: 262,
 		title: "Java 2 Micro Edition",
 		isbn: "1930110332",
 		pageCount: 504,
-		publishedDate: {
-			$date: "2002-03-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2002-03-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/white.jpg",
 		longDescription:
@@ -4564,13 +3762,10 @@ const books = [
 		categories: ["Java", "Internet"],
 	},
 	{
-		id: 263,
 		title: "SharePoint 2010 Workflows in Action",
 		isbn: "1935182714",
 		pageCount: 360,
-		publishedDate: {
-			$date: "2011-02-07T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2011-02-07T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/wicklund.jpg",
 		shortDescription:
@@ -4582,13 +3777,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 264,
 		title: "SharePoint 2010 Web Parts in Action",
 		isbn: "1935182773",
 		pageCount: 448,
-		publishedDate: {
-			$date: "2011-04-24T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-04-24T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/wilen.jpg",
 		shortDescription:
@@ -4600,13 +3792,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 265,
 		title: "C++ Concurrency in Action",
 		isbn: "1933988770",
 		pageCount: 325,
-		publishedDate: {
-			$date: "2012-02-24T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2012-02-24T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/williams.jpg",
 		shortDescription:
@@ -4618,13 +3807,10 @@ const books = [
 		categories: ["Microsoft .NET"],
 	},
 	{
-		id: 266,
 		title: "Java Servlets by Example",
 		isbn: "188477766X",
 		pageCount: 550,
-		publishedDate: {
-			$date: "2002-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2002-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/williamson.jpg",
 		longDescription:
@@ -4634,13 +3820,10 @@ const books = [
 		categories: ["Java", "Internet"],
 	},
 	{
-		id: 267,
 		title: "XML Programming with VB and ASP",
 		isbn: "1884777872",
 		pageCount: 320,
-		publishedDate: {
-			$date: "1999-12-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1999-12-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/wilson.jpg",
 		longDescription:
@@ -4650,13 +3833,10 @@ const books = [
 		categories: ["XML", "Internet"],
 	},
 	{
-		id: 268,
 		title: "Oracle8i Database Administration",
 		isbn: "1884777783",
 		pageCount: 543,
-		publishedDate: {
-			$date: "1999-11-01T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "1999-11-01T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/yuhanna.jpg",
 		longDescription:
@@ -4666,7 +3846,6 @@ const books = [
 		categories: ["Client-Server", "Networking"],
 	},
 	{
-		id: 269,
 		title: "The Engaging Web",
 		isbn: "9781935182078",
 		pageCount: 325,
@@ -4681,7 +3860,6 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 270,
 		title: "Enterprise OSGi In Action",
 		isbn: "1617290130",
 		pageCount: 0,
@@ -4692,13 +3870,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 271,
 		title: "Ext JS in Action, Second Edition",
 		isbn: "1617290327",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-02-04T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2014-02-04T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/garcia3.jpg",
 		status: "PUBLISH",
@@ -4706,13 +3881,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 272,
 		title: "Android in Action, Third Edition",
 		isbn: "1617290505",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2011-11-15T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2011-11-15T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson3.jpg",
 		status: "PUBLISH",
@@ -4725,13 +3897,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 273,
 		title: "Arduino in Action",
 		isbn: "1617290246",
 		pageCount: 300,
-		publishedDate: {
-			$date: "2013-05-30T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-05-30T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mevans.jpg",
 		shortDescription:
@@ -4743,13 +3912,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 274,
 		title: "Node.js in Action",
 		isbn: "1617290572",
 		pageCount: 300,
-		publishedDate: {
-			$date: "2013-10-15T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-10-15T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cantelon.jpg",
 		shortDescription:
@@ -4767,13 +3933,10 @@ const books = [
 		categories: ["Web Development"],
 	},
 	{
-		id: 275,
 		title: "Third-Party JavaScript ",
 		isbn: "1617290548",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-03-11T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-03-11T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/vinegar.jpg",
 		status: "PUBLISH",
@@ -4781,91 +3944,69 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 276,
 		title: "Multimedia Computing",
 		isbn: "020152029X",
 		pageCount: 0,
-		publishedDate: {
-			$date: "1993-09-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1993-09-01T00:00:00.000-0700" },
 		status: "PUBLISH",
 		authors: ["Matthew E. Hodges"],
 		categories: [],
 	},
 	{
-		id: 277,
 		title: "Web Development with JavaServer Pages",
 		isbn: "1884777996",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2000-05-15T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2000-05-15T00:00:00.000-0700" },
 		status: "PUBLISH",
 		authors: ["Duane K. Fields", "Mark A. Kolb"],
 		categories: [],
 	},
 	{
-		id: 278,
 		title: "Up to Speed with Swing",
 		isbn: "1884777643",
 		pageCount: 0,
-		publishedDate: {
-			$date: "1998-05-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1998-05-01T00:00:00.000-0700" },
 		status: "PUBLISH",
 		authors: ["Steven J. Gutz"],
 		categories: [],
 	},
 	{
-		id: 279,
 		title: "Manager's Guide to Open Source",
 		isbn: "193239429X",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2004-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2004-10-01T00:00:00.000-0700" },
 		status: "PUBLISH",
 		authors: ["Maria Winslow"],
 		categories: [],
 	},
 	{
-		id: 280,
 		title: "Programming Web Services with Java",
 		isbn: "1930110421",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2002-10-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2002-10-01T00:00:00.000-0700" },
 		status: "PUBLISH",
 		authors: ["Ajamu A. Wesley"],
 		categories: [],
 	},
 	{
-		id: 281,
 		title: "TCP/IP Programming for OS/2",
 		isbn: "132612496",
 		pageCount: 0,
-		publishedDate: {
-			$date: "1996-04-23T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1996-04-23T00:00:00.000-0700" },
 		status: "PUBLISH",
 		authors: ["Steven J. Gutz"],
 		categories: [],
 	},
 	{
-		id: 282,
 		title: "SCWCD Exam Study Kit",
 		isbn: "1930110596",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2002-07-01T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2002-07-01T00:00:00.000-0700" },
 		status: "PUBLISH",
 		authors: ["Hanumant Deshmukh", "Jignesh Malavia"],
 		categories: [],
 	},
 	{
-		id: 283,
 		title: "Unit Testing in C++",
 		isbn: "1617290386",
 		pageCount: 0,
@@ -4874,7 +4015,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 284,
 		title: "Big Data",
 		isbn: "1617290343",
 		pageCount: 0,
@@ -4885,13 +4025,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 285,
 		title: "CoffeeScript in Action",
 		isbn: "1617290629",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-05-09T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2014-05-09T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lee.jpg",
 		status: "PUBLISH",
@@ -4899,13 +4036,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 286,
 		title: "SQL Server MVP Deep Dives, Volume 2",
 		isbn: "1617290475",
 		pageCount: 750,
-		publishedDate: {
-			$date: "2011-10-13T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2011-10-13T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/delaney.jpg",
 		status: "PUBLISH",
@@ -4922,13 +4056,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 287,
 		title: "HTML5 in Action",
 		isbn: "1617290491",
 		pageCount: 375,
-		publishedDate: {
-			$date: "2014-02-10T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2014-02-10T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/crowther2.jpg",
 		shortDescription:
@@ -4940,7 +4071,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 288,
 		title: "Java Persistence with Hibernate, Second Edition",
 		isbn: "1617290459",
 		pageCount: 0,
@@ -4951,13 +4081,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 289,
 		title: "Hadoop in Practice",
 		isbn: "1617290238",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-10-02T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-10-02T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/holmes.jpg",
 		status: "PUBLISH",
@@ -4965,13 +4092,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 290,
 		title: "HBase in Action",
 		isbn: "1617290521",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-11-02T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-11-02T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dimidukkhurana.jpg",
 		status: "PUBLISH",
@@ -4979,13 +4103,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 291,
 		title: "Flex Mobile in Action",
 		isbn: "1617290610",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-05-30T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-05-30T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/campos.jpg",
 		status: "PUBLISH",
@@ -4993,13 +4114,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 292,
 		title: "HTML5 for .NET Developers",
 		isbn: "1617290432",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-11-30T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2012-11-30T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jackson.jpg",
 		status: "PUBLISH",
@@ -5007,13 +4125,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 293,
 		title: "50 Android Hacks",
 		isbn: "1617290564",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-06-03T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-06-03T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sessa.jpg",
 		status: "PUBLISH",
@@ -5021,13 +4136,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 294,
 		title: "PowerShell in Depth",
 		isbn: "1617290556",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-02-20T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2013-02-20T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones2.jpg",
 		status: "PUBLISH",
@@ -5035,7 +4147,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 295,
 		title: "Augmented Reality Revealed",
 		isbn: "1617290165",
 		pageCount: 0,
@@ -5044,7 +4155,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 296,
 		title: "Building Well-Structured JavaScript Applications",
 		isbn: "1617290599",
 		pageCount: 0,
@@ -5053,13 +4163,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 297,
 		title: "Linked Data",
 		isbn: "1617290394",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-12-31T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2013-12-31T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dwood.jpg",
 		status: "PUBLISH",
@@ -5072,13 +4179,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 298,
 		title: "Mule in Action, Second Edition",
 		isbn: "1617290823",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-02-20T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2014-02-20T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dossot2.jpg",
 		status: "PUBLISH",
@@ -5086,13 +4190,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 299,
 		title: "Single Page Web Applications",
 		isbn: "1617290750",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-09-19T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-09-19T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mikowski.jpg",
 		status: "PUBLISH",
@@ -5100,13 +4201,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 300,
 		title: "The Art of Unit Testing, Second Edition",
 		isbn: "1617290890",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-11-25T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2013-11-25T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/osherove2.jpg",
 		status: "PUBLISH",
@@ -5114,13 +4212,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 301,
 		title: "Play for Java",
 		isbn: "1617290904",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-03-14T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2014-03-14T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/leroux.jpg",
 		status: "PUBLISH",
@@ -5128,13 +4223,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 302,
 		title: "Hello World! Second Edition",
 		isbn: "1617290920",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-12-12T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2013-12-12T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sande2.jpg",
 		status: "PUBLISH",
@@ -5142,13 +4234,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 303,
 		title: "Dart in Action",
 		isbn: "1617290866",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-12-31T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2012-12-31T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/buckett.jpg",
 		status: "PUBLISH",
@@ -5156,13 +4245,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 304,
 		title: "Redis in Action",
 		isbn: "1617290858",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-06-18T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-06-18T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/carlson.jpg",
 		status: "PUBLISH",
@@ -5170,13 +4256,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 305,
 		title: "Using the TI-83 Plus/TI-84 Plus",
 		isbn: "161729084X",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-08-19T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-08-19T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mitchell2.jpg",
 		status: "PUBLISH",
@@ -5184,7 +4267,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 306,
 		title: "Neo4j in Action",
 		isbn: "1617290769",
 		pageCount: 0,
@@ -5195,13 +4277,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 307,
 		title: "Programming the TI-83 Plus/TI-84 Plus",
 		isbn: "1617290777",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-09-14T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2012-09-14T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mitchell.jpg",
 		status: "PUBLISH",
@@ -5209,7 +4288,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 308,
 		title: "Functional Programming in Scala",
 		isbn: "1617290653",
 		pageCount: 0,
@@ -5220,13 +4298,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 309,
 		title: "Play for Scala",
 		isbn: "1617290793",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-10-03T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-10-03T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hilton.jpg",
 		status: "PUBLISH",
@@ -5234,7 +4309,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 310,
 		title: "Node.js in Practice",
 		isbn: "1617290939",
 		pageCount: 0,
@@ -5245,13 +4319,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 311,
 		title: "SonarQube in Action",
 		isbn: "1617290955",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-10-30T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-10-30T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/papapetrou.jpg",
 		status: "PUBLISH",
@@ -5259,13 +4330,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 312,
 		title: "Windows Store App Development: C# and XAML",
 		isbn: "1617290947",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-06-03T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-06-03T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/pbrown3.jpg",
 		status: "PUBLISH",
@@ -5273,13 +4341,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 313,
 		title: "Learn Windows IIS in a Month of Lunches",
 		isbn: "1617290971",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-12-31T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2013-12-31T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/helmick.jpg",
 		status: "PUBLISH",
@@ -5287,7 +4352,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 314,
 		title: "Mondrian in Action",
 		isbn: "161729098X",
 		pageCount: 0,
@@ -5298,7 +4362,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 315,
 		title: "RabbitMQ in Depth",
 		isbn: "1617291005",
 		pageCount: 0,
@@ -5309,7 +4372,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 316,
 		title: "Akka in Action",
 		isbn: "1617291013",
 		pageCount: 0,
@@ -5325,13 +4387,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 317,
 		title: "Extending jQuery",
 		isbn: "161729103X",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-08-12T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-08-12T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/wood.jpg",
 		status: "PUBLISH",
@@ -5339,13 +4398,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 318,
 		title: "OCA Java SE 7 Programmer I Certification Guide",
 		isbn: "1617291048",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-04-02T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-04-02T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/gupta.jpg",
 		status: "PUBLISH",
@@ -5353,13 +4409,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 319,
 		title: "Kanban in Action",
 		isbn: "1617291056",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-03-04T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2014-03-04T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hammarberg.jpg",
 		status: "PUBLISH",
@@ -5367,13 +4420,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 320,
 		title: "Solr in Action",
 		isbn: "1617291021",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-03-25T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2014-03-25T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/grainger.jpg",
 		status: "PUBLISH",
@@ -5381,13 +4431,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 321,
 		title: "Making Sense of NoSQL",
 		isbn: "1617291072",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-09-03T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-09-03T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mccreary.jpg",
 		status: "PUBLISH",
@@ -5395,19 +4442,15 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 322,
 		title: "Jaguar Development with PowerBuilder 7",
 		isbn: "1884777864",
 		pageCount: 0,
-		publishedDate: {
-			$date: "1999-08-09T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "1999-08-09T00:00:00.000-0700" },
 		status: "PUBLISH",
 		authors: ["MIchael Barlotta"],
 		categories: [],
 	},
 	{
-		id: 323,
 		title: "Grails in Action, Second Edition",
 		isbn: "1617290963",
 		pageCount: 0,
@@ -5418,7 +4461,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 324,
 		title: "Rails 4 in Action",
 		isbn: "1617291099",
 		pageCount: 0,
@@ -5429,13 +4471,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 325,
 		title: "Learn Windows PowerShell in a Month of Lunches, Second Edition",
 		isbn: "1617291080",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-11-12T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2012-11-12T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones3.jpg",
 		status: "PUBLISH",
@@ -5443,13 +4482,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 326,
 		title: "AOP in .NET",
 		isbn: "1617291145",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-06-21T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-06-21T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/groves.jpg",
 		status: "PUBLISH",
@@ -5457,13 +4493,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 327,
 		title: "Learn PowerShell Toolmaking in a Month of Lunches",
 		isbn: "1617291161",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2012-12-12T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2012-12-12T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones4.jpg",
 		status: "PUBLISH",
@@ -5471,7 +4504,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 328,
 		title: "CMIS and Apache Chemistry in Action",
 		isbn: "1617291153",
 		pageCount: 0,
@@ -5482,7 +4514,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 329,
 		title: "Action Guide (aka VB .NET)",
 		isbn: "1930110324",
 		pageCount: 0,
@@ -5491,7 +4522,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 330,
 		title: "Learn Active Directory Management in a Month of Lunches",
 		isbn: "1617291196",
 		pageCount: 0,
@@ -5502,7 +4532,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 331,
 		title: "Spring in Action, Fourth Edition",
 		isbn: "161729120X",
 		pageCount: 0,
@@ -5513,13 +4542,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 332,
 		title: "The Mikado Method",
 		isbn: "1617291218",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-03-05T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2014-03-05T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ellnestam.jpg",
 		status: "PUBLISH",
@@ -5527,7 +4553,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 333,
 		title: "The Responsive Web",
 		isbn: "1617291242",
 		pageCount: 0,
@@ -5538,13 +4563,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 334,
 		title: "Fast ASP.NET Websites",
 		isbn: "1617291250",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-08-29T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-08-29T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hume.jpg",
 		status: "PUBLISH",
@@ -5552,7 +4574,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 335,
 		title: "SBT in Action",
 		isbn: "1617291277",
 		pageCount: 0,
@@ -5563,7 +4584,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 336,
 		title: "PowerShell Deep Dives",
 		isbn: "1617291315",
 		pageCount: 0,
@@ -5580,13 +4600,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 337,
 		title: "Gradle in Action",
 		isbn: "1617291307",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-02-18T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2014-02-18T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/muschko.jpg",
 		status: "PUBLISH",
@@ -5594,7 +4611,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 338,
 		title: "Scalatra in Action",
 		isbn: "1617291293",
 		pageCount: 0,
@@ -5612,7 +4628,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 339,
 		title: "AngularJS in Action",
 		isbn: "1617291331",
 		pageCount: 0,
@@ -5623,7 +4638,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 340,
 		title: "Software Development Metrics",
 		isbn: "1617291358",
 		pageCount: 0,
@@ -5634,7 +4648,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 341,
 		title: "F# Deep Dives",
 		isbn: "1617291323",
 		pageCount: 0,
@@ -5645,13 +4658,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 342,
 		title: "C# in Depth, Third Edition",
 		isbn: "161729134X",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-09-19T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2013-09-19T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/skeet3.jpg",
 		status: "PUBLISH",
@@ -5659,7 +4669,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 343,
 		title: "PostGIS in Action, Second Edition",
 		isbn: "1617291390",
 		pageCount: 0,
@@ -5670,7 +4679,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 344,
 		title: "R in Action, Second Edition",
 		isbn: "1617291382",
 		pageCount: 0,
@@ -5681,13 +4689,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 345,
 		title: "The Joy of Clojure, Second Edition",
 		isbn: "1617291412",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-05-29T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2014-05-29T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/fogus2.jpg",
 		status: "PUBLISH",
@@ -5695,13 +4700,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 346,
 		title: "iOS 7 in Action",
 		isbn: "1617291420",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-04-03T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2014-04-03T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lim2.jpg",
 		status: "PUBLISH",
@@ -5709,7 +4711,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 347,
 		title: "Hello App Inventor!",
 		isbn: "1617291439",
 		pageCount: 0,
@@ -5720,13 +4721,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 348,
 		title: "Ember.js in Action",
 		isbn: "1617291455",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-06-10T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2014-06-10T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/skeie.jpg",
 		status: "PUBLISH",
@@ -5734,7 +4732,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 349,
 		title: "Netty in Action",
 		isbn: "1617291471",
 		pageCount: 0,
@@ -5745,7 +4742,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 350,
 		title: "RavenDB in Action",
 		isbn: "1617291501",
 		pageCount: 0,
@@ -5756,7 +4752,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 351,
 		title: "OCP Java SE 7 Programmer II Certification Guide",
 		isbn: "161729148X",
 		pageCount: 0,
@@ -5767,7 +4762,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 352,
 		title: "Backbone.js in Action",
 		isbn: "1617291536",
 		pageCount: 0,
@@ -5783,7 +4777,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 353,
 		title: "Clojure in Action, Second Edition",
 		isbn: "1617291528",
 		pageCount: 0,
@@ -5794,13 +4787,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 354,
 		title: "Practical Data Science with R",
 		isbn: "1617291560",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-04-02T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2014-04-02T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/zumel.jpg",
 		status: "PUBLISH",
@@ -5808,7 +4798,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 355,
 		title: "ArcGIS Web Development",
 		isbn: "1617291617",
 		pageCount: 0,
@@ -5819,7 +4808,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 356,
 		title: "Elasticsearch in Action",
 		isbn: "1617291625",
 		pageCount: 0,
@@ -5830,7 +4818,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 357,
 		title: "Learn SCCM 2012 in a Month of Lunches",
 		isbn: "1617291684",
 		pageCount: 0,
@@ -5841,7 +4828,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 358,
 		title: "Programming for Musicians and Digital Artists",
 		isbn: "1617291706",
 		pageCount: 0,
@@ -5852,7 +4838,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 359,
 		title: "BDD in Action",
 		isbn: "161729165X",
 		pageCount: 0,
@@ -5863,13 +4848,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 360,
 		title: "Windows Phone 8 in Action",
 		isbn: "1617291374",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2013-12-31T00:00:00.000-0800",
-		},
+		publishedDate: { $date: "2013-12-31T00:00:00.000-0800" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/binkley.jpg",
 		status: "PUBLISH",
@@ -5882,7 +4864,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 361,
 		title: "Titanium Alloy in Action",
 		isbn: "1617291749",
 		pageCount: 0,
@@ -5893,7 +4874,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 362,
 		title: "Giraph in Action",
 		isbn: "1617291757",
 		pageCount: 0,
@@ -5909,13 +4889,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 363,
 		title: "The Well-Grounded Rubyist, Second Edition",
 		isbn: "1617291692",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-06-24T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2014-06-24T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/black3.jpg",
 		status: "PUBLISH",
@@ -5923,7 +4900,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 364,
 		title: "Go in Action",
 		isbn: "1617291781",
 		pageCount: 0,
@@ -5934,7 +4910,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 365,
 		title: "The Programmer's Guide to Apache Thrift ",
 		isbn: "1617291811",
 		pageCount: 0,
@@ -5945,7 +4920,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 366,
 		title: "Grokking Functional Programming",
 		isbn: "1617291838",
 		pageCount: 0,
@@ -5956,7 +4930,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 367,
 		title: "CORS in Action",
 		isbn: "161729182X",
 		pageCount: 0,
@@ -5967,7 +4940,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 368,
 		title: "Reactive Design Patterns",
 		isbn: "1617291803",
 		pageCount: 0,
@@ -5978,7 +4950,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 369,
 		title: "Storm Applied",
 		isbn: "1617291897",
 		pageCount: 0,
@@ -5989,7 +4960,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 370,
 		title: "Real-World Machine Learning",
 		isbn: "1617291927",
 		pageCount: 0,
@@ -6000,7 +4970,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 371,
 		title: "jQuery UI in Action",
 		isbn: "1617291935",
 		pageCount: 0,
@@ -6011,7 +4980,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 372,
 		title: "Web Components in Action",
 		isbn: "1617291943",
 		pageCount: 0,
@@ -6022,7 +4990,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 373,
 		title: "JavaScript Application Design",
 		isbn: "1617291951",
 		pageCount: 0,
@@ -6033,7 +5000,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 374,
 		title: "Git in Practice",
 		isbn: "1617291978",
 		pageCount: 0,
@@ -6044,7 +5010,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 375,
 		title: "Impala in Action",
 		isbn: "1617291986",
 		pageCount: 0,
@@ -6055,7 +5020,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 376,
 		title: "Java 8 in Action",
 		isbn: "1617291994",
 		pageCount: 0,
@@ -6066,7 +5030,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 377,
 		title: "Elixir in Action",
 		isbn: "161729201X",
 		pageCount: 0,
@@ -6077,7 +5040,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 378,
 		title: "MongoDB in Action, Second Edition",
 		isbn: "1617291609",
 		pageCount: 0,
@@ -6095,7 +5057,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 379,
 		title: "Getting MEAN with Mongo, Express, Angular, and Node",
 		isbn: "1617292036",
 		pageCount: 0,
@@ -6106,7 +5067,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 380,
 		title: "jQuery in Action, Third Edition",
 		isbn: "1617292079",
 		pageCount: 0,
@@ -6117,7 +5077,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 381,
 		title: "D3.js in Action",
 		isbn: "1617292117",
 		pageCount: 0,
@@ -6128,13 +5087,10 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 382,
 		title: "Learn SQL Server Administration in a Month of Lunches",
 		isbn: "1617292133",
 		pageCount: 0,
-		publishedDate: {
-			$date: "2014-05-02T00:00:00.000-0700",
-		},
+		publishedDate: { $date: "2014-05-02T00:00:00.000-0700" },
 		thumbnailUrl:
 			"https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones5.jpg",
 		status: "PUBLISH",
@@ -6142,7 +5098,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 383,
 		title: "Geoprocessing with Python",
 		isbn: "1617292141",
 		pageCount: 0,
@@ -6153,7 +5108,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 384,
 		title: "Barcodes with iOS",
 		isbn: "161729215X",
 		pageCount: 0,
@@ -6164,7 +5118,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 385,
 		title: "Chef in Action",
 		isbn: "1617292214",
 		pageCount: 0,
@@ -6175,7 +5128,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 386,
 		title: "Hadoop in Practice, Second Edition",
 		isbn: "1617292222",
 		pageCount: 0,
@@ -6186,7 +5138,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 387,
 		title: "Oculus Rift in Action",
 		isbn: "1617292192",
 		pageCount: 0,
@@ -6197,7 +5148,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 388,
 		title: "OpenStack in Action",
 		isbn: "1617292168",
 		pageCount: 0,
@@ -6208,7 +5158,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 389,
 		title: "PowerShell in Depth, Second Edition",
 		isbn: "1617292184",
 		pageCount: 0,
@@ -6219,7 +5168,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 390,
 		title: "Practical Probabilistic Programming",
 		isbn: "1617292338",
 		pageCount: 0,
@@ -6230,7 +5178,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 391,
 		title: "Unity in Action",
 		isbn: "161729232X",
 		pageCount: 0,
@@ -6241,7 +5188,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 392,
 		title: "Express.js in Action",
 		isbn: "1617292427",
 		pageCount: 0,
@@ -6252,7 +5198,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 393,
 		title: "Learn Git in a Month of Lunches",
 		isbn: "1617292419",
 		pageCount: 0,
@@ -6263,7 +5208,6 @@ const books = [
 		categories: [],
 	},
 	{
-		id: 394,
 		title: "Understanding SPAs",
 		isbn: "1617292435",
 		pageCount: 0,
@@ -6274,5 +5218,3 @@ const books = [
 		categories: [],
 	},
 ];
-
-module.exports = books;

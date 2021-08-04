@@ -1,4 +1,4 @@
-<h1 align="center">Book Directory RESTful API</h1>
+<h1 align="center">Book Directory RESTfull API</h1>
 
 <p align="center">
 
@@ -7,3 +7,10 @@
   <p align="center">Build with Express.js</p>
 
 </p>
+
+<h2>Introduction</h2>
+
+<p>
+  This repository contains Rest Full Backend Book Directory app and this API is builded with express.js.
+</p>
+

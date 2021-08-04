@@ -23,16 +23,16 @@ four most basic methods: ***GET, POST, PUT and DELETE***.
 ## Instructions
 
 1. Clone this repository:
-		`clone https://github.com/3n0ugh/book-directory-nodejs.git`
+		clone https://github.com/3n0ugh/book-directory-nodejs.git
 	
 2. Open the cloned repository in the code editor and install the necessary packages:
-		`npm install`
+		npm install
 	
 3. For development run:
-		`npm dev`
+		npm dev
 	
 4. For production run:
-		`npm start`
+		npm start
 	
 
 

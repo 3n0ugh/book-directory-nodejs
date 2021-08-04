@@ -8,9 +8,34 @@
 
 </p>
 
-<h2>Introduction</h2>
+## Introduction
 
 <p>
-  This repository contains Rest Full Backend Book Directory app and this API is builded with express.js.
+  This repository contains the <a>Rest Full Backend Book Directory app </a>and this API built with <a>Express.js</a>. 
+
+  In this repository, you build a book directory, where you would need to create endpoints, using the 
+  four most basic methods: <a>GET, POST, PUT and DELETE</a>.
+
+  The collected data is stored in a <a>JSON file</a>.
 </p>
+
+## Requirements
+
+- node.js
+- npm
+- postman
+- code editor
+
+## Instructions
+
+1. Clone this repository 
+ - `clone https://github.com/3n0ugh/book-directory-nodejs.git`
+2. Open the cloned repository in the code editor and install the necessary packages
+ - `npm install`
+3. For development run
+ - `npm dev`
+4. For production run
+ - `npm start`
+
+
 

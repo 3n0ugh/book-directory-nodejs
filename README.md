@@ -16,9 +16,6 @@ four most basic methods: ***GET, POST, PUT and DELETE***.
 ## Requirements
 
 - node.js
-- npm
-- postman
-- code editor
 
 ## Instructions
 

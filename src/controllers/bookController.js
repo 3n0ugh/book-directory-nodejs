@@ -19,7 +19,6 @@ const getBook = (req, res) => {
 	}
 	res.status(201).json({ success: true, data: book });
 };
-3;
 
 // to add a book
 const addBook = (req, res) => {
